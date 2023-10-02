@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ADMIN PANEL</title>
   <!-- google font start -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <!-- google font end -->
@@ -25,6 +26,7 @@
   <!-- sidebar navigation start -->
   <section class="dashboard">
 
+
     <?php
     include("layout/sidebar.php");
     ?>
@@ -40,57 +42,85 @@
       <div class="content-part">
         <div class="top-short-summery">
           <div class="row">
-            <div class="col-lg-6 col-xl-3 col-xxl-3 col-md-6">
+            <div class="col-lg-6 col-xl-3 col-xxl-2 col-md-6">
               <div class="summery-item">
                 <h4>Total Accounts</h4>
                 <h3 class="counter">586,356</h3>
-                <ul>
+                <!-- <ul>
                   <li>
                     <span><i class="bi bi-arrow-up"></i> 30.4%</span> increase this month
                   </li>
-                </ul>
+                </ul> -->
                 <div class="circle">
                   <i class="far fa-id-card"></i>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-xl-3 col-xxl-3 col-md-6">
-              <div class="summery-item item-2">
-                <h4>Products Sold</h4>
-                <h3 class="counter">158,356</h3>
-                <ul>
+            <div class="col-lg-6 col-xl-3 col-xxl-2 col-md-6">
+              <div class="summery-item item-4">
+                <h4>Total Revenue</h4>
+                <h3 class="counter">586,356</h3>
+                <!-- <ul>
                   <li>
                     <span><i class="bi bi-arrow-up"></i> 15.4%</span> increase this month
                   </li>
-                </ul>
+                </ul> -->
+                <div class="circle">
+                  <i class="far fa-snowflake"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-3 col-xxl-2 col-md-6">
+              <div class="summery-item item-2">
+                <h4>Products Sold</h4>
+                <h3 class="counter">158,356</h3>
+                <!-- <ul>
+                  <li>
+                    <span><i class="bi bi-arrow-up"></i> 15.4%</span> increase this month
+                  </li>
+                </ul> -->
                 <div class="circle">
                   <i class="far fa-lightbulb"></i>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-xl-3 col-xxl-3 col-md-6">
+            <div class="col-lg-6 col-xl-3 col-xxl-2 col-md-6">
               <div class="summery-item item-3 mb-md-0">
                 <h4>Net Profit</h4>
                 <h3 class="counter">586,356</h3>
-                <ul>
+                <!-- <ul>
                   <li>
                     <span><i class="bi bi-arrow-up"></i> 15.4%</span> increase this month
                   </li>
-                </ul>
+                </ul> -->
                 <div class="circle">
                   <i class="fas fa-recycle"></i>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-xl-3 col-xxl-3 col-md-6">
-              <div class="summery-item item-4">
-                <h4>Customer Satisfaction</h4>
-                <h3><span class="counter">99</span> <span>%</span></h3>
-                <ul>
+            <div class="col-lg-6 col-xl-3 col-xxl-2 col-md-6">
+              <div class="summery-item item-5">
+                <h4>Total Customer</h4>
+                <h3 class="counter">586</h3>
+                <!-- <ul>
                   <li>
                     <span><i class="bi bi-arrow-up"></i> 15.4%</span> increase this month
                   </li>
-                </ul>
+                </ul> -->
+                <div class="circle">
+                  <i class="far fa-snowflake"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-xl-3 col-xxl-2 col-md-6">
+              <div class="summery-item item-6">
+                <h4>Customer Satisfaction</h4>
+                <h3><span class="counter">99</span> <span>%</span></h3>
+                <!-- <ul>
+                  <li>
+                    <span><i class="bi bi-arrow-up"></i> 15.4%</span> increase this month
+                  </li>
+                </ul> -->
                 <div class="circle">
                   <i class="far fa-snowflake"></i>
                 </div>
@@ -99,153 +129,153 @@
           </div>
         </div>
         <div class="desh-category">
-          <h3 class="py-3">Category</h3>
+          <h3 class="title">Category</h3>
           <div class="category-slide">
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
 
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/breakfast.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/breakfast.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
 
 
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/frozen.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/frozen.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
 
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/meat.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/meat.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
 
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/vegetable.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/vegetable.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
 
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/healthy-food.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/healthy-food.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
 
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/frozen.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/frozen.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
 
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
 
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
 
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
 
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
 
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
 
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
 
 
-          <div class="category-contain text-center">
-            <a class="category-img" href="#">
-              <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-            </a>
-            <a href="#">
-              <p>Bevarage</p>
-            </a>
-          </div>
+            <div class="category-contain text-center">
+              <a class="category-img" href="#">
+                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+              </a>
+              <a href="#">
+                <p>Bevarage</p>
+              </a>
+            </div>
           </div>
         </div>
         <div class="details-info">
           <div class="row">
-            <div class="col-lg-12 col-xl-3 col-xxl-3">
+            <div class="col-lg-12 col-xl-4 col-xxl-4">
               <div class="info-notification">
                 <div class="title">
                   <h4>Notifications</h4>
@@ -332,8 +362,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-12 col-xl-9 col-xxl-9">
-              <div class="projects">
+
+            <div class="col-lg-12 col-xl-8 col-xxl-8">
+              <!-- <div class="projects">
                 <div class="title">
                   <h4>Latest Projects</h4>
                 </div>
@@ -481,10 +512,476 @@
                     </tbody>
                   </table>
                 </div>
+              </div> -->
+              <div class="info-notification best">
+                <div class="title d-flex">
+                  <h4>Best Selling Product</h4>
+                  <div class="best-selling-box d-sm-flex ms-auto d-none">
+                    <span>Short By:</span>
+                    <div class="dropdown">
+                      <button class="btn p-0 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" data-bs-auto-close="true" data-bs-original-title="" title="" aria-expanded="false">Today</button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(-117px, 23px);" data-popper-placement="bottom-end">
+                        <li><a class="dropdown-item" href="#" data-bs-original-title="" title="">Action</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-original-title="" title="">Another action</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-original-title="" title="">Something else here</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="info-item-main">
+                  <div class="best-selling table-responsive">
+                    <table class="best-selling-table w-image table border-0">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <div class="best-product-box">
+                              <div class="product-image">
+                                <img src="https://themes.pixelstrap.com/fastkart/back-end/assets/images/product/1.png" class="img-fluid" alt="Product">
+                              </div>
+                              <div class="product-name">
+                                <h5>Aata Buscuit</h5>
+                                <h6>26-08-2022</h6>
+                              </div>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Price</h6>
+                              <h5>$29.00</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Orders</h6>
+                              <h5>62</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Stock</h6>
+                              <h5>510</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Amount</h6>
+                              <h5>$1,798</h5>
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="best-product-box">
+                              <div class="product-image">
+                                <img src="https://themes.pixelstrap.com/fastkart/back-end/assets/images/product/1.png" class="img-fluid" alt="Product">
+                              </div>
+                              <div class="product-name">
+                                <h5>Aata Buscuit</h5>
+                                <h6>26-08-2022</h6>
+                              </div>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Price</h6>
+                              <h5>$29.00</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Orders</h6>
+                              <h5>62</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Stock</h6>
+                              <h5>510</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Amount</h6>
+                              <h5>$1,798</h5>
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="best-product-box">
+                              <div class="product-image">
+                                <img src="https://themes.pixelstrap.com/fastkart/back-end/assets/images/product/1.png" class="img-fluid" alt="Product">
+                              </div>
+                              <div class="product-name">
+                                <h5>Aata Buscuit</h5>
+                                <h6>26-08-2022</h6>
+                              </div>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Price</h6>
+                              <h5>$29.00</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Orders</h6>
+                              <h5>62</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Stock</h6>
+                              <h5>510</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Amount</h6>
+                              <h5>$1,798</h5>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-xl-8">
+              <div class="info-notification orders">
+                <div class="title d-flex">
+                  <h4>Recent Orders</h4>
+                  <div class="best-selling-box d-sm-flex ms-auto d-none">
+                    <span>Short By:</span>
+                    <div class="dropdown">
+                      <button class="btn p-0 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" data-bs-auto-close="true" data-bs-original-title="" title="" aria-expanded="false">Today</button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1" style="position: absolute; inset: 0px auto auto 0px; margin: 0px; transform: translate(-117px, 23px);" data-popper-placement="bottom-end">
+                        <li><a class="dropdown-item" href="#" data-bs-original-title="" title="">Action</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-original-title="" title="">Another action</a></li>
+                        <li><a class="dropdown-item" href="#" data-bs-original-title="" title="">Something else here</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="info-item-main">
+                  <div class="table-responsive">
+                    <table class="best-selling-table table border-0">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <div class="best-product-box">
+                              <div class="product-name">
+                                <h5>Aata Buscuit</h5>
+                                <h6>#64548</h6>
+                              </div>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Date Placed</h6>
+                              <h5>5/1/22</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Price</h6>
+                              <h5>$250.00</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Order Status</h6>
+                              <h5>Completed</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Payment</h6>
+                              <h5 class="text-danger">Unpaid</h5>
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="best-product-box">
+                              <div class="product-name">
+                                <h5>Aata Buscuit</h5>
+                                <h6>26-08-2022</h6>
+                              </div>
+                            </div>
+                          </td>
+
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Date Placed</h6>
+                              <h5>5/1/22</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Price</h6>
+                              <h5>$250.00</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Order Status</h6>
+                              <h5>Completed</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Payment</h6>
+                              <h5 class="success-color">Paid</h5>
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="best-product-box">
+                              <div class="product-name">
+                                <h5>Aata Buscuit</h5>
+                                <h6>26-08-2022</h6>
+                              </div>
+                            </div>
+                          </td>
+
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Date Placed</h6>
+                              <h5>5/1/22</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Price</h6>
+                              <h5>$250.00</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Order Status</h6>
+                              <h5>Completed</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Payment</h6>
+                              <h5 class="success-color">Paid</h5>
+                            </div>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <div class="best-product-box">
+                              <div class="product-name">
+                                <h5>Aata Buscuit</h5>
+                                <h6>26-08-2022</h6>
+                              </div>
+                            </div>
+                          </td>
+
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Date Placed</h6>
+                              <h5>5/1/22</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Price</h6>
+                              <h5>$250.00</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Order Status</h6>
+                              <h5>Completed</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Payment</h6>
+                              <h5 class="success-color">Paid</h5>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-xl-4">
+              <div class="info-notification visitors">
+                <div class="title">
+                  <h4>Visitors</h4>
+                </div>
+                <div class="info-item-main pt-5">
+                  <div id="chart3">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-xl-4">
+              <div class="info-notification payments">
+                <div class="title">
+                  <h4>Payments</h4>
+                </div>
+                <div class="info-item-main">
+                  <div class="table-responsive">
+                    <table class="user-table transactions-table table border-0">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <div class="transactions-icon">
+                              <i class="bi bi-shield"></i>
+                            </div>
+                            <div class="transactions-name">
+                              <h6>Wallets</h6>
+                              <p>Starbucks</p>
+                            </div>
+                          </td>
+
+                          <td class="lost">-$74</td>
+                        </tr>
+                        <tr>
+                          <td class="td-color-1">
+                            <div class="transactions-icon">
+                              <i class="bi bi-check"></i>
+                            </div>
+                            <div class="transactions-name">
+                              <h6>Bank Transfer</h6>
+                              <p>Add Money</p>
+                            </div>
+                          </td>
+
+                          <td class="success">+$125</td>
+                        </tr>
+                        <tr>
+                          <td class="td-color-2">
+                            <div class="transactions-icon">
+                              <i class="bi bi-currency-dollar"></i>
+                            </div>
+                            <div class="transactions-name">
+                              <h6>biKash</h6>
+                              <p>Add Money</p>
+                            </div>
+                          </td>
+
+                          <td class="lost">-$50</td>
+                        </tr>
+                        <tr>
+                          <td class="td-color-3">
+                            <div class="transactions-icon">
+                              <i class="fa-solid fa-money-check"></i>
+                            </div>
+                            <div class="transactions-name">
+                              <h6>Mastercard</h6>
+                              <p>Ordered Food</p>
+                            </div>
+                          </td>
+
+                          <td class="lost">-$40</td>
+                        </tr>
+                        <tr>
+                          <td class="td-color-4 pb-0">
+                            <div class="transactions-icon">
+                              <i class="bi bi-bar-chart-line"></i>
+                            </div>
+                            <div class="transactions-name">
+                              <h6>Transfer</h6>
+                              <p>Refund</p>
+                            </div>
+                          </td>
+
+                          <td class="success pb-0">+$90</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-8">
+              <div class="info-notification payments">
+                <div class="title">
+                  <h4>Monthly Sales</h4>
+                </div>
+                <div class="info-item-main">
+                  <div id="chart2">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-xl-6">
+              <div class="info-notification">
+                <div class="title">
+                  <h4>Revenue Report</h4>
+                </div>
+                <div class="info-item-main">
+                  <div id="chart">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="info-notification orders">
+                <div class="title">
+                  <h4>Earning</h4>
+                </div>
+                <div class="info-item-main">
+                  <div id="chart4">
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
       <!-- content part end -->
     </div>
@@ -499,6 +996,9 @@
   <script src="js/waypoints.min.js"></script>
   <script src="js/jquery.counterup.min.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/apexcharts v3.43.0.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script> -->
+  <!-- <script src="js/stock-prices.js"></script> -->
   <script src="js/script.js"></script>
   <!-- script file  end-->
 </body>

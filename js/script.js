@@ -239,3 +239,214 @@ $(function () {
   });
 
 });
+// Revenue report
+var options = {
+  series: [{
+      name: 'series1',
+      data: [31, 40, 28, 51, 42, 109, 100]
+    }
+    // , {
+    //   name: 'series2',
+    //   data: [11, 32, 45, 32, 34, 52, 41]
+    // }
+  ],
+  chart: {
+    height: 350,
+    type: 'area'
+  },
+  dataLabels: {
+    enabled: false
+  },
+  stroke: {
+    curve: 'smooth'
+  },
+  xaxis: {
+    type: 'month',
+    // categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+    categories: ["Jan", "Feb", "March", "April", "May", "Jun"]
+  },
+  tooltip: {
+    x: {
+      format: 'dd/MM/yy HH:mm'
+    },
+  },
+};
+
+var chart = new ApexCharts(document.querySelector("#chart"), options);
+chart.render();
+
+
+// monthly sale chart
+var options2 = {
+  series: [{
+    name: 'PRODUCT A',
+    data: [44, 55, 41, 67, 22, 43, 20, 50, 25, 40, 80, 36]
+  }, {
+    name: 'PRODUCT B',
+    data: [13, 23, 20, 8, 13, 27, 20, 40, 25, 32, 45, 65]
+  }, {
+    name: 'PRODUCT C',
+    data: [11, 17, 15, 15, 21, 14, 20, 50, 42, 15, 54, 76]
+  }, {
+    name: 'PRODUCT D',
+    data: [21, 7, 25, 13, 22, 8, 12, 54, 36, 18, 28, 65]
+  }],
+  chart: {
+    type: 'bar',
+    height: 350,
+    stacked: true,
+    toolbar: {
+      show: true
+    },
+    zoom: {
+      enabled: true
+    }
+  },
+  responsive: [{
+    breakpoint: 480,
+    options: {
+      legend: {
+        position: 'bottom',
+        offsetX: -10,
+        offsetY: 0
+      }
+    }
+  }],
+  plotOptions: {
+    bar: {
+      horizontal: false,
+      borderRadius: 10,
+      dataLabels: {
+        total: {
+          enabled: true,
+          style: {
+            fontSize: '13px',
+            fontWeight: 900
+          }
+        }
+      }
+    },
+  },
+  xaxis: {
+    type: 'datetime',
+    categories: ['01/01/2023 GMT', '01/02/2023 GMT', '01/03/2023 GMT', '01/04/2023 GMT',
+      '01/05/2023 GMT', '01/06/2023 GMT', '01/07/2023 GMT', '01/08/2023 GMT', '01/09/2023 GMT', '01/10/2023 GMT', '01/11/2023 GMT', '01/12/2023 GMT'
+    ],
+  },
+  legend: {
+    position: 'right',
+    offsetY: 40
+  },
+  fill: {
+    opacity: 1
+  }
+};
+
+var chart2 = new ApexCharts(document.querySelector("#chart2"), options2);
+chart2.render();
+
+
+// visitors chart
+var options3 = {
+  series: [44, 55, 13, 33],
+  chart: {
+    width: 380,
+    type: 'donut',
+  },
+  dataLabels: {
+    enabled: true
+  },
+  labels: ['Reguler', 'Occasional', 'Passersby', 'Superfans'],
+  responsive: [{
+    breakpoint: 480,
+    options: {
+      chart: {
+        width: 200
+      },
+      legend: {
+        show: false
+      }
+    }
+  }],
+  legend: {
+    position: 'left',
+    offsetY: 0,
+    height: 230,
+  }
+};
+
+var chart3 = new ApexCharts(document.querySelector("#chart3"), options3);
+chart3.render();
+
+
+// Earning chart
+var options4 = {
+  series: [{
+      name: "High - 2013",
+      data: [28, 29, 33, 36, 32, 32, 33]
+    },
+    {
+      name: "Low - 2013",
+      data: [12, 11, 14, 18, 17, 13, 13]
+    }
+  ],
+  chart: {
+    height: 330,
+    type: 'line',
+    dropShadow: {
+      enabled: true,
+      color: '#000',
+      top: 18,
+      left: 7,
+      blur: 10,
+      opacity: 0.2
+    },
+    toolbar: {
+      show: false
+    }
+  },
+  colors: ['#77B6EA', '#545454'],
+  dataLabels: {
+    enabled: true,
+  },
+  stroke: {
+    curve: 'smooth'
+  },
+  // title: {
+  // text: 'Average High & Low Temperature',
+  // align: 'left'
+  // },
+  grid: {
+    borderColor: '#e7e7e7',
+    row: {
+      colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+      opacity: 0.5
+    },
+  },
+  markers: {
+    size: 1
+  },
+  xaxis: {
+    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+    // title: {
+    //   text: 'Month'
+    // }
+  },
+  yaxis: {
+    // title: {
+    //   text: 'Temperature'
+    // },
+    min: 5,
+    max: 40
+  },
+  legend: {
+    position: 'top',
+    horizontalAlign: 'right',
+    floating: true,
+    offsetY: -25,
+    offsetX: -5
+  }
+};
+
+var chart4 = new ApexCharts(document.querySelector("#chart4"), options4);
+chart4.render();

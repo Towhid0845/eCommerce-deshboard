@@ -42,5 +42,11 @@ body {
   font-size: 15px;
   background-color: #F6F7FB;
   color: $lightDarkColor;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Public Sans',
+  sans-serif;
+  }
+
+  .btn:focus {
+    outline: 0;
+    box-shadow: none;
 }
