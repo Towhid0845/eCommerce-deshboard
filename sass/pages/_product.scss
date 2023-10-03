@@ -1,13 +1,14 @@
 @import "../variable/bgcolor";
 @import "../variable/textcolor";
 
-.add-employee-form {
-  .employee-block {
+.add-product-form {
+  .product-block {
     width: 100%;
-    border: 1px solid #949494;
+    border: 1px solid $commonBorderColor1;
+    background-color: $lightColor1;
     position: relative;
     padding: 30px 20px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
     .label-text {
       position: absolute;
@@ -15,16 +16,10 @@
       left: 14px;
       font-size: 18px;
       color: $black;
+      border: 1px solid $glow;
       background-color: $lightColor;
-      padding: 10px 15px;
+      padding: 7px 15px;
       font-weight: 500;
-    }
-
-    .form-element {
-      textarea {
-        height: 40px;
-        border-color: $darkColor;
-      }
     }
   }
 
@@ -41,7 +36,7 @@
 }
 
 
-.employee-other-info {
+.product-other-info {
   background-color: #f5f5f5;
   border-top: 3px solid #777EDD;
   border-radius: 5px;
@@ -71,7 +66,8 @@
     padding: 24px;
   }
 }
-.employee-record {
+
+.product-record {
   background-color: $themeColorFive;
   padding: 8px 16px;
   color: $lightColor;
@@ -80,4 +76,26 @@
   &:hover {
     color: $lightColor !important;
   }
+}
+
+.status-danger span {
+  background-color: rgba(226, 36, 84, 0.15);
+  color: #e22454;
+  padding: 5px 10px;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.status-close span {
+  background-color: rgba(47, 135, 51, 0.15);
+  color: #2f8733;
+  padding: 5px 10px;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 400;
 }

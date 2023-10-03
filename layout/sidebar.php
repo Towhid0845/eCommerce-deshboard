@@ -14,33 +14,199 @@
       <h4>Navigation</h4>
     </div>
 
-
-
     <div class="main-menus">
       <ul id="accordion" class="accordion">
         <li class="active">
           <div class="link">
-            <a href="#" class="ps-0 pe-0">
+            <a href="index.php" class="ps-0 pe-0">
               <span class="icon"><i class="bi bi-house-door"></i></span>
               <span class="title">
                 Dashboard
-                <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
               </span>
             </a>
           </div>
+
+        </li>
+        <li>
+          <div class="link">
+            <span class="icon"><i class="bi bi-bag-check"></i></span>
+            <span class="title">
+              Product
+              <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+            </span>
+          </div>
           <ul class="submenu title">
-            <li><a href=""><i class="fas fa-angle-right"></i> Unit Wise Sailor</a></li>
-            <li><a href=""><i class="fas fa-angle-right"></i> Unit Wise Officer</a></li>
-            <li><a href=""><i class="fas fa-angle-right"></i> All Navy</a></li>
+            <li><a href="product.php"><i class="fas fa-angle-right"></i> Products</a></li>
+            <li><a href="add-product.php"><i class="fas fa-angle-right"></i>Add New Products</a></li>
+            <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Product Reviews</a></li>
           </ul>
         </li>
         <li>
           <div class="link">
-            <a href="create-item.php" class="ps-0 pe-0">
-              <span class="icon"><i class="bi bi-house-door"></i></span>
+            <a href="" class="ps-0 pe-0">
+              <span class="icon"><i class="bi bi-bag-check"></i></span>
               <span class="title">
-                Item
-               
+                Order
+                <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+              </span>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <span class="icon"><i class="bi bi-bag-check"></i></span>
+            <span class="title">
+              Attribute Setup
+              <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+            </span>
+          </div>
+          <ul class="submenu title">
+            <li><a href="product.php"><i class="fas fa-angle-right"></i>Category</a></li>
+            <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Brand</a></li>
+            <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Color</a></li>
+            <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Size</a></li>
+            <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Units</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="link">
+            <span class="icon"><i class="bi bi-bag-check"></i></span>
+            <span class="title">
+              Website
+              <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+            </span>
+          </div>
+          <ul class="submenu title">
+            <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Content</a></li>
+            <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Gallery/Image</a></li>
+            <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Menu List</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="link">
+            <span class="icon"><i class="bi bi-bag-check"></i></span>
+            <span class="title">
+              User
+              <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+            </span>
+          </div>
+          <ul class="submenu title">
+            <li><a href="product.php"><i class="fas fa-angle-right"></i> User List</a></li>
+            <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Add New user</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="link">
+            <span class="icon"><i class="bi bi-bag-check"></i></span>
+            <span class="title">
+              Admin
+              <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+            </span>
+          </div>
+          <ul class="submenu title">
+            <li><a href="product.php"><i class="fas fa-angle-right"></i> Admin List</a></li>
+            <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Add New Admin</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="link">
+            <a href="" class="ps-0 pe-0">
+              <span class="icon"><i class="bi bi-bag-check"></i></span>
+              <span class="title">
+                Payment History
+                <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+              </span>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <a href="" class="ps-0 pe-0">
+              <span class="icon"><i class="bi bi-bag-check"></i></span>
+              <span class="title">
+                Support
+                <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+              </span>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <a href="" class="ps-0 pe-0">
+              <span class="icon"><i class="bi bi-bag-check"></i></span>
+              <span class="title">
+                Discount
+                <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+              </span>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <a href="" class="ps-0 pe-0">
+              <span class="icon"><i class="bi bi-bag-check"></i></span>
+              <span class="title">
+                Coupon
+                <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+              </span>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <a href="" class="ps-0 pe-0">
+              <span class="icon"><i class="bi bi-bag-check"></i></span>
+              <span class="title">
+                Reports
+                <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+              </span>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <span class="icon"><i class="bi bi-bag-check"></i></span>
+            <span class="title">
+              System Settings
+              <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+            </span>
+          </div>
+          <ul class="submenu title">
+            <li><a href="product.php"><i class="fas fa-angle-right"></i> Site Setting</a></li>
+            <li><a href="product.php"><i class="fas fa-angle-right"></i> Role</a></li>
+            <li><a href="product.php"><i class="fas fa-angle-right"></i> Menu List</a></li>
+            <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Module Create</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="link">
+            <a href="" class="ps-0 pe-0">
+              <span class="icon"><i class="bi bi-bag-check"></i></span>
+              <span class="title">
+                FAQ
+                <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+              </span>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <a href="" class="ps-0 pe-0">
+              <span class="icon"><i class="bi bi-bag-check"></i></span>
+              <span class="title">
+                Activity Log
+                <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+              </span>
+            </a>
+          </div>
+        </li>
+        <li>
+          <div class="link">
+            <a href="" class="ps-0 pe-0">
+              <span class="icon"><i class="bi bi-bag-check"></i></span>
+              <span class="title">
+                Site Map
+                <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
               </span>
             </a>
           </div>

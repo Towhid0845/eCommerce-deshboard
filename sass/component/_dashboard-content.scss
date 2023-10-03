@@ -34,6 +34,30 @@
   }
 }
 
+.template-div {
+  padding: 24px;
+  width: 100%;
+  background-color: $lightColor;
+  border-radius: 7px;
+  box-shadow: 0 1px 20px 0 #455a6414;
+  transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 0 25px rgba(33, 37, 41, 0.1);
+    transition: all 0.4s ease;
+    transform: translateY(-5px);
+  }
+
+  .title {
+    padding-bottom: 12px;
+
+    h4 {
+      font-size: 17px;
+      color: $dashDarkTextColor;
+    }
+  }
+}
+
 .content-part {
   padding: 29px;
 
@@ -105,74 +129,30 @@
   }
 
 
-.desh-category{
-  margin-top: 40px;
-  background-color: #FFF;
-  border-radius: 10px;
-  padding: 24px;
-  transition: all 0.3s ease;
+  .desh-category {
+    margin-top: 40px;
 
-  &:hover {
-    box-shadow: 0 0 25px rgba(33, 37, 41, 0.1);
-    transition: all 0.4s ease;
-    transform: translateY(-5px);
-  }
+    .category-img {
+      padding: 28px;
+      margin: 0 10px 10px;
+      background-color: #F5F5F5;
+      border-radius: 10px;
 
-  .title {
-    padding-bottom: 12px;
-  }
+      img {
+        margin: 0 auto;
+      }
 
-  h3{
-    font-size: 17px;
-  color: #404E67;
-  }
-
-  .category-img{
-  padding: 28px;
-  margin: 0 10px 10px;
-  background-color: #F5F5F5;
-  border-radius: 10px;
-
-    img{
-      margin: 0 auto;
+    }
+p {
+  color: black;
     }
 
   }
-  p{
-    color: black;
-    // padding-bottom: 10px;
-  }
-
-}
-
-
-
-  .details-info {
+  .info-section {
     margin-top: 24px;
+  }
 
-    .info-notification {
-      width: 100%;
-      background-color: $lightColor;
-      border-radius: 7px;
-      box-shadow: 0 1px 20px 0 #455a6414;
-      padding: 24px;
-      transition: all 0.3s ease;
-
-      &:hover {
-        box-shadow: 0 0 25px rgba(33, 37, 41, 0.1);
-        transition: all 0.4s ease;
-        transform: translateY(-5px);
-      }
-      .title {
-        padding-bottom: 12px;
-      }
-
-      h4 {
-        font-size: 17px;
-        color: $dashDarkTextColor;
-      }
-    }
-
+  .notify-section {
     .info-notify-item {
       background-color: #FFEEEE;
       padding: 18px 14px;
@@ -192,6 +172,7 @@
         a {
           color: #404E67;
           transition: all linear .2s;
+          font-size: 18px;
 
           &:hover {
             color: #0ACF97;
@@ -214,7 +195,6 @@
         }
       }
     }
-
     .info-notify-item.info-item2 {
       background-color: #F8F5FF;
     }
@@ -226,138 +206,152 @@
     .info-notify-item.info-item4 {
       background-color: #FFF8DD;
     }
-
-    .projects {
-      width: 100%;
-      background-color: $lightColor;
-      border-radius: 7px;
-      box-shadow: 0 1px 20px 0 #455a6414;
-      padding: 24px;
-
-      .title {
-        padding-bottom: 12px;
-      }
-
-      h4 {
-        font-size: 17px;
-        color: $dashDarkTextColor;
-      }
-
-      th {
-        font-size: 15px;
-        font-weight: 500;
-        color: #404e67e6;
-      }
-
-      tr {
-        vertical-align: middle;
-      }
-
-      td {
-        color: $dashGrayTextColor;
-        font-weight: 400;
-        font-size: 14px;
-      }
-
-      .released {
-        background-color: #FF5B5B;
-        border: 0;
-        color: $lightColor;
-        border-radius: 5px;
-        padding: 2px 5px;
-        font-size: 12px;
-      }
-
-      .released.pending {
-        background-color: #00BCD4;
-      }
-
-      .released.in-progress {
-        background-color: #5B69BC;
-      }
-
-      .released.comming {
-        background-color: #188AE2;
-      }
-
-      .released.finish {
-        background-color: #F9BC0B;
-      }
-
-      .delete {
-        width: 25px;
-        height: 25px;
-        border-radius: 3px;
-        text-align: center;
-        line-height: 25px;
-        display: inline-block;
-        cursor: pointer;
-        transition: all linear .2s;
-        font-size: 12px;
-        margin: 0 1px;
-        background-color: #f5f8fa;
-      }
-
-      .delete-btn {
-        border: 1px solid $themeColorThree;
-        color: $themeColorThree;
-
-        &:hover {
-          background-color: $themeColorThree;
-          color: $lightColor
-        }
-      }
-
-      .view {
-        border: 1px solid $themeColorFive;
-        color: $themeColorFive;
-
-        &:hover {
-          background-color: $themeColorFive;
-          color: $lightColor;
-        }
-      }
-
-      .edit {
-        border: 1px solid $themeColorSix;
-        color: $themeColorSix;
-
-        &:hover {
-          background-color: $themeColorSix;
-          color: $lightColor;
-        }
-      }
-    }
-
-    .project-table {
-      overflow-y: scroll;
-      height: 361px;
-      scrollbar-width: thin;
-      scrollbar-color: #01B3B7 transparent;
-
-      &::-webkit-scrollbar {
-        width: 8px;
-      }
-
-      &::-webkit-scrollbar-thumb {
-        background-color: #01B3B7;
-      }
-    }
   }
+
+
+  // .projects {
+  //   width: 100%;
+  //   background-color: $lightColor;
+  //   border-radius: 7px;
+  //   box-shadow: 0 1px 20px 0 #455a6414;
+  //   padding: 24px;
+
+  //   .title {
+  //     padding-bottom: 12px;
+  //   }
+
+    //   h4 {
+    //     font-size: 17px;
+    //     color: $dashDarkTextColor;
+    //   }
+
+    //   th {
+    //     font-size: 15px;
+    //     font-weight: 500;
+    //     color: #404e67e6;
+    //   }
+
+    //   tr {
+    //     vertical-align: middle;
+    //   }
+
+    //   td {
+    //     color: $dashGrayTextColor;
+    //     font-weight: 400;
+    //     font-size: 14px;
+    //   }
+
+    //   .released {
+    //     background-color: #FF5B5B;
+    //     border: 0;
+    //     color: $lightColor;
+    //     border-radius: 5px;
+    //     padding: 2px 5px;
+    //     font-size: 12px;
+    //   }
+
+    //   .released.pending {
+    //     background-color: #00BCD4;
+    //   }
+
+    //   .released.in-progress {
+    //     background-color: #5B69BC;
+    //   }
+
+    //   .released.comming {
+    //     background-color: #188AE2;
+    //   }
+
+    //   .released.finish {
+    //     background-color: #F9BC0B;
+    //   }
+
+    //   .delete {
+    //     width: 25px;
+    //     height: 25px;
+    //     border-radius: 3px;
+    //     text-align: center;
+    //     line-height: 25px;
+    //     display: inline-block;
+    //     cursor: pointer;
+    //     transition: all linear .2s;
+    //     font-size: 12px;
+    //     margin: 0 1px;
+    //     background-color: #f5f8fa;
+    //   }
+
+    //   .delete-btn {
+    //     border: 1px solid $themeColorThree;
+    //     color: $themeColorThree;
+
+    //     &:hover {
+    //       background-color: $themeColorThree;
+    //       color: $lightColor
+    //     }
+    //   }
+
+    //   .view {
+    //     border: 1px solid $themeColorFive;
+    //     color: $themeColorFive;
+
+    //     &:hover {
+    //       background-color: $themeColorFive;
+    //       color: $lightColor;
+    //     }
+    //   }
+
+    //   .edit {
+    //     border: 1px solid $themeColorSix;
+    //     color: $themeColorSix;
+
+    //     &:hover {
+    //       background-color: $themeColorSix;
+    //       color: $lightColor;
+    //     }
+    //   }
+    // }
+
+    // .project-table {
+    //   overflow-y: scroll;
+    //   height: 361px;
+    //   scrollbar-width: thin;
+    //   scrollbar-color: #01B3B7 transparent;
+
+    //   &::-webkit-scrollbar {
+    //     width: 8px;
+    //   }
+
+    //   &::-webkit-scrollbar-thumb {
+    //     background-color: #01B3B7;
+    //   }
+    // }
+
 .visitors,
-.best,
-.orders,
-.payments {
-  min-height: 444px;
+.recent-orders,
+.payments,
+.monthly-sale,
+.earning {
+  height: 444px;
 }
 
-.best-selling-box span {
-  margin-right: 6px;
-  font-weight: 700;
-  color: #222;
+.recent-orders {
+  background-color: rgba(255, 248, 221, .4);
+}
+.monthly-sale {
+  background-color: rgba(248, 245, 255, 1);
+}
+.revenue-report {
+  background-color: rgba(255, 243, 232, .4);
 }
 
-.best-selling-table tbody tr td {
+.best-sale {
+  height: 474px;
+  // box-shadow: 0 1px 20px 0 #e8fff3 !important;
+  // background-color: #e8fff3;
+  background-color: rgba(232, 255, 243, .2);
+}
+
+.desh-table tbody tr td {
   padding: 16px;
   border-bottom: 1px solid #ecf3fa;
   min-width: 120px;
@@ -391,7 +385,7 @@
         height: 100%;
         object-fit: contain;
       }
-    }
+      }
 
     .product-name {
       h5 {
@@ -404,8 +398,8 @@
       h6 {
         font-size: 13px;
       }
-    }
-  }
+      }
+      }
 
   .product-detail-box {
     h6 {
@@ -423,6 +417,19 @@
     h5.success-color {
       color: #0da487;
     }
+  }
+}
+
+.best-sale,
+.recent-orders {
+  .title {
+    border-bottom: 1px solid #ecf3fa;
+  }
+
+  .filter-box span {
+    margin-right: 6px;
+    font-weight: 700;
+    color: #222;
   }
 }
 

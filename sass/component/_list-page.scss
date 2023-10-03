@@ -5,11 +5,6 @@
   margin-bottom: 10px;
 
   select {
-    font-size: 15px;
-    font-weight: 400;
-    height: 40px;
-    border: 1px solid $lightDarkColor;
-    padding: 0 16px;
     padding-right: 40px;
 
     &:focus {
@@ -25,7 +20,7 @@
   position: relative;
   z-index: 2;
   text-align: center;
-  height: 37px;
+  height: 35px;
   padding: 0 22px;
   width: 70px;
   line-height: 40px;
@@ -236,7 +231,8 @@
     position: sticky;
     top: 0;
     bottom: 0;
-    background-color: $darkColor;
+    // background-color: $darkColor;
+    background-color: $lightColor1;
   }
 
   .title {
@@ -257,7 +253,7 @@
   th {
     font-size: 15px;
     font-weight: 500;
-    color: #fff;
+    color: $darkColor;
 
     .table-title {
       position: relative;
@@ -450,5 +446,6 @@
 
 .search-section {
   padding: 20px;
-  background-color: #f5f5f5;
+  // background-color: $searchBgColor;
+  background-color: $lightColor1;
 }

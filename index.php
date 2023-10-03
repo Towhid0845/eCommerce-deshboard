@@ -1,26 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ADMIN PANEL</title>
-  <!-- google font start -->
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <!-- google font end -->
-  <script src="https://kit.fontawesome.com/3f4c7459cb.js" crossorigin="anonymous"></script>
-  <!-- css file start -->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="icons/bootstrap-icons-1.8.2/bootstrap-icons.css">
-  <link rel="stylesheet" href="css/slick.css" />
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <!-- css file end -->
-</head>
+<?php
+include("layout/head.php");
+?>
 
 <body class="sidebar">
   <!-- sidebar navigation start -->
@@ -128,159 +111,163 @@
             </div>
           </div>
         </div>
-        <div class="desh-category">
-          <h3 class="title">Category</h3>
-          <div class="category-slide">
+        <div class="template-div desh-category">
+          <div class="title">
+            <h4>Category</h4>
+          </div>
+          <div class="category-content">
+            <div class="category-slide">
 
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
-            </div>
-
-
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/breakfast.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
-            </div>
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
 
 
-
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/frozen.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
-            </div>
-
-
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/meat.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
-            </div>
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/breakfast.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
 
 
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/vegetable.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
-            </div>
+
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/frozen.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
 
 
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/healthy-food.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
-            </div>
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/meat.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
 
 
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/frozen.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
-            </div>
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/vegetable.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
 
 
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
-            </div>
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/healthy-food.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
 
 
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
-            </div>
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/frozen.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
 
 
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
-            </div>
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
 
 
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
-            </div>
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
 
 
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
-            </div>
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
 
 
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
-            </div>
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
 
 
-            <div class="category-contain text-center">
-              <a class="category-img" href="#">
-                <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
-              </a>
-              <a href="#">
-                <p>Bevarage</p>
-              </a>
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
+
+
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
+
+
+              <div class="category-contain text-center">
+                <a class="category-img" href="#">
+                  <img src="./images/hot-beverage.png" class="img-fluid" alt="error">
+                </a>
+                <a href="#">
+                  <p>Bevarage</p>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="details-info">
+        <div class="info-section">
           <div class="row">
             <div class="col-lg-12 col-xl-4 col-xxl-4">
-              <div class="info-notification">
+              <div class="template-div notify-section">
                 <div class="title">
                   <h4>Notifications</h4>
                 </div>
-                <div class="info-item-main">
+                <div class="content-container">
                   <div class="row">
                     <div class="col-md-6 col-lg-6 col-xl-12 col-xxl-12">
                       <div class="info-notify-item d-flex">
@@ -513,10 +500,10 @@
                   </table>
                 </div>
               </div> -->
-              <div class="info-notification best">
+              <div class="template-div best-sale">
                 <div class="title d-flex">
                   <h4>Best Selling Product</h4>
-                  <div class="best-selling-box d-sm-flex ms-auto d-none">
+                  <div class="filter-box d-sm-flex ms-auto d-none">
                     <span>Short By:</span>
                     <div class="dropdown">
                       <button class="btn p-0 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" data-bs-auto-close="true" data-bs-original-title="" title="" aria-expanded="false">Today</button>
@@ -529,10 +516,52 @@
                   </div>
                 </div>
 
-                <div class="info-item-main">
-                  <div class="best-selling table-responsive">
-                    <table class="best-selling-table w-image table border-0">
+                <div class="content-container">
+                  <div class="table-responsive">
+                    <table class="desh-table table border-0">
                       <tbody>
+                        <tr>
+                          <td>
+                            <div class="best-product-box">
+                              <div class="product-image">
+                                <img src="https://themes.pixelstrap.com/fastkart/back-end/assets/images/product/1.png" class="img-fluid" alt="Product">
+                              </div>
+                              <div class="product-name">
+                                <h5>Aata Buscuit</h5>
+                                <h6>26-08-2022</h6>
+                              </div>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Price</h6>
+                              <h5>$29.00</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Orders</h6>
+                              <h5>62</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Stock</h6>
+                              <h5>510</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Amount</h6>
+                              <h5>$1,798</h5>
+                            </div>
+                          </td>
+                        </tr>
+
                         <tr>
                           <td>
                             <div class="best-product-box">
@@ -665,12 +694,14 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="info-section">
           <div class="row mt-4">
             <div class="col-xl-8">
-              <div class="info-notification orders">
+              <div class="template-div recent-orders">
                 <div class="title d-flex">
                   <h4>Recent Orders</h4>
-                  <div class="best-selling-box d-sm-flex ms-auto d-none">
+                  <div class="filter-box d-sm-flex ms-auto d-none">
                     <span>Short By:</span>
                     <div class="dropdown">
                       <button class="btn p-0 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" data-bs-auto-close="true" data-bs-original-title="" title="" aria-expanded="false">Today</button>
@@ -682,9 +713,9 @@
                     </div>
                   </div>
                 </div>
-                <div class="info-item-main">
+                <div class="content-container">
                   <div class="table-responsive">
-                    <table class="best-selling-table table border-0">
+                    <table class="desh-table table border-0">
                       <tbody>
                         <tr>
                           <td>
@@ -844,6 +875,48 @@
                             </div>
                           </td>
                         </tr>
+
+                        <tr>
+                          <td>
+                            <div class="best-product-box">
+                              <div class="product-name">
+                                <h5>Aata Buscuit</h5>
+                                <h6>26-08-2022</h6>
+                              </div>
+                            </div>
+                          </td>
+
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Date Placed</h6>
+                              <h5>5/1/22</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Price</h6>
+                              <h5>$250.00</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Order Status</h6>
+                              <h5>Completed</h5>
+                            </div>
+                          </td>
+
+                          <td>
+                            <div class="product-detail-box">
+                              <h6>Payment</h6>
+                              <h5 class="success-color">Paid</h5>
+                            </div>
+                          </td>
+                        </tr>
+
+
                       </tbody>
                     </table>
                   </div>
@@ -852,26 +925,28 @@
 
             </div>
             <div class="col-xl-4">
-              <div class="info-notification visitors">
+              <div class="template-div visitors">
                 <div class="title">
                   <h4>Visitors</h4>
                 </div>
-                <div class="info-item-main pt-5">
+                <div class="content-container pt-5">
                   <div id="chart3">
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="info-section">
           <div class="row mt-4">
             <div class="col-xl-4">
-              <div class="info-notification payments">
+              <div class="template-div payments">
                 <div class="title">
                   <h4>Payments</h4>
                 </div>
-                <div class="info-item-main">
+                <div class="content-container">
                   <div class="table-responsive">
-                    <table class="user-table transactions-table table border-0">
+                    <table class="transactions-table table border-0">
                       <tbody>
                         <tr>
                           <td>
@@ -945,35 +1020,37 @@
               </div>
             </div>
             <div class="col-xl-8">
-              <div class="info-notification payments">
+              <div class="template-div monthly-sale">
                 <div class="title">
                   <h4>Monthly Sales</h4>
                 </div>
-                <div class="info-item-main">
+                <div class="content-container">
                   <div id="chart2">
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+        <div class="info-section">
           <div class="row mt-4">
             <div class="col-xl-6">
-              <div class="info-notification">
+              <div class="template-div revenue-report">
                 <div class="title">
                   <h4>Revenue Report</h4>
                 </div>
-                <div class="info-item-main">
+                <div class="content-container">
                   <div id="chart">
                   </div>
                 </div>
               </div>
             </div>
             <div class="col-xl-6">
-              <div class="info-notification orders">
+              <div class="template-div earning">
                 <div class="title">
                   <h4>Earning</h4>
                 </div>
-                <div class="info-item-main">
+                <div class="content-container">
                   <div id="chart4">
                   </div>
                 </div>
@@ -981,7 +1058,6 @@
             </div>
           </div>
         </div>
-
       </div>
       <!-- content part end -->
     </div>

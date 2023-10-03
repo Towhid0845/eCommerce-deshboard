@@ -31,7 +31,7 @@
 
     .top-heading {
       h4 {
-        color: $sidebarTitleDarkColor;
+        color: $lightColor;
         font-size: 16px;
         font-weight: 500;
         letter-spacing: 1px;
@@ -43,7 +43,7 @@
       ul {
         li {
           a {
-            color: $sidebarTextColor;
+            color: $lightColor;
             display: block;
             width: 100%;
             padding: 0 20px;
