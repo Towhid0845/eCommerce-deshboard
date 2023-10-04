@@ -203,12 +203,12 @@ include("layout/head.php");
                     <td><span>G M SARWAR SHOOMON</span></td>
                     <td><span>56</span></td>
                     <td><span>5 Jul 2023</span></td>
-                    <td class="status status-close"><span>Yes</span></td>
+                    <td class="status status-success"><span>Yes</span></td>
                     <td><span>biKash</span></td>
                     <td><span>5</span></td>
                     <td><span>70 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
                     <td><span>1000 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
-                    <td class="status status-danger"><span>Pending</span></td>
+                    <td class="status status-pending"><span>Pending</span></td>
                     <td><span>
                         <a href="product-view.html">
                           <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete view"><i class="fa-solid fa-eye"></i></span>
@@ -223,12 +223,12 @@ include("layout/head.php");
                     <td><span>G M SARWAR SHOOMON</span></td>
                     <td><span>56</span></td>
                     <td><span>5 Jul 2023</span></td>
-                    <td class="status status-cancel"><span>No</span></td>
+                    <td class="status status-danger"><span>No</span></td>
                     <td><span>biKash</span></td>
                     <td><span>5</span></td>
                     <td><span>70 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
                     <td><span>1000 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
-                    <td class="status status-close"><span>Success</span></td>
+                    <td class="status status-success"><span>Success</span></td>
                     <td><span>
                         <a href="product-view.html">
                           <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete view"><i class="fa-solid fa-eye"></i></span>
@@ -262,7 +262,7 @@ include("layout/head.php");
                     <td><span>G M SARWAR SHOOMON</span></td>
                     <td><span>56</span></td>
                     <td><span>5 Jul 2023</span></td>
-                    <td class="status status-close"><span>Yes</span></td>
+                    <td class="status status-success"><span>Yes</span></td>
                     <td><span>biKash</span></td>
                     <td><span>5</span></td>
                     <td><span>70 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
@@ -302,12 +302,12 @@ include("layout/head.php");
                     <td><span>G M SARWAR SHOOMON</span></td>
                     <td><span>56</span></td>
                     <td><span>5 Jul 2023</span></td>
-                    <td class="status status-cancel"><span>No</span></td>
+                    <td class="status status-danger"><span>No</span></td>
                     <td><span>biKash</span></td>
                     <td><span>5</span></td>
                     <td><span>70 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
                     <td><span>1000 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
-                    <td class="status status-cancel"><span>Canceled</span></td>
+                    <td class="status status-danger"><span>Canceled</span></td>
                     <td><span>
                         <a href="product-view.html">
                           <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete view"><i class="fa-solid fa-eye"></i></span>

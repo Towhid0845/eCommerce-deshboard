@@ -25,7 +25,7 @@
   width: 70px;
   line-height: 40px;
   overflow: hidden;
-  background: $themeColorSix;
+  background: $orange3;
   transition: all 0.5s ease;
   border: none;
   color: $lightColor !important;
@@ -232,7 +232,7 @@
     top: 0;
     bottom: 0;
     // background-color: $darkColor;
-    background-color: $lightColor1;
+    background-color: $orange2;
   }
 
   .title {
@@ -253,7 +253,7 @@
   th {
     font-size: 15px;
     font-weight: 500;
-    color: $darkColor;
+    color: $lightColor;
 
     .table-title {
       position: relative;

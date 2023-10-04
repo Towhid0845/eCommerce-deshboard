@@ -124,12 +124,12 @@ body {
         font-weight: 400;
       }
 
-      .status.status-danger span {
+      .status.status-pending span {
         background-color: rgba(0, 0, 0, 0.15);
         color: #303030;
 
       }
-.status.status-close span {
+.status.status-success span {
   background-color: rgba(47, 135, 51, 0.15);
   color: #2f8733;
 }
@@ -148,7 +148,7 @@ body {
   color: #081d93;
 }
 
-.status.status-cancel span {
+.status.status-danger span {
   background-color: rgba(226, 36, 84, 0.15);
   color: #e22454;
 

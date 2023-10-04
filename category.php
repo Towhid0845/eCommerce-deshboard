@@ -49,25 +49,13 @@ include("layout/head.php");
 
                     <div class="col-md-6 col-lg-4 col-xl-3">
                       <div class="form-element">
-                        <label for="">Select Category</label>
+                        <label for="">Search by Name</label>
                         <select class="form-select shadow-none" aria-label="Default select example">
-                          <option selected>Select One</option>
-                          <option value="1">Name</option>
-                          <option value="2">p_no</option>
-                          <option value="3">Email</option>
-                          <option value="3">Mobile</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                      <div class="form-element">
-                        <label for="">Search by</label>
-                        <select class="form-select shadow-none" aria-label="Default select example">
-                          <option selected>Select One</option>
-                          <option value="1">Name</option>
-                          <option value="2">p_no</option>
-                          <option value="3">Email</option>
-                          <option value="3">Mobile</option>
+                          <option selected>Select Name</option>
+                          <option value="1">abc</option>
+                          <option value="2">pqr</option>
+                          <option value="3">xyz</option>
+                          <option value="3">ffg</option>
                         </select>
                       </div>
                     </div>
@@ -100,10 +88,6 @@ include("layout/head.php");
                 <thead>
                   <tr>
                     <th style="min-width:30px">#</th>
-                    <th style="min-width:100px">
-                      <span class="table-title">Image
-                      </span>
-                    </th>
                     <th style="min-width:130px">
                       <span class="table-title">Name
                         <i class="bi bi-caret-up-fill sort-up"></i>
@@ -112,46 +96,19 @@ include("layout/head.php");
                     </th>
                     <th style="min-width:100px">
                       <span class="table-title">
-                        Category
+                        Icon
                         <i class="bi bi-caret-up-fill sort-up"></i>
                         <i class="bi bi-caret-down-fill sort-down"></i>
                       </span>
                     </th>
                     <th style="min-width:100px">
                       <span class="table-title">
-                        Brand
+                        Date
                         <i class="bi bi-caret-up-fill sort-up"></i>
                         <i class="bi bi-caret-down-fill sort-down"></i>
                       </span>
                     </th>
-                    <th style="min-width:100px">
-                      <span class="table-title">
-                        Model No
-                        <i class="bi bi-caret-up-fill sort-up"></i>
-                        <i class="bi bi-caret-down-fill sort-down"></i>
-                      </span>
-                    </th>
-                    <th style="min-width:100px">
-                      <span class="table-title">
-                        Price
-                        <i class="bi bi-caret-up-fill sort-up"></i>
-                        <i class="bi bi-caret-down-fill sort-down"></i>
-                      </span>
-                    </th>
-                    <th style="min-width:100px">
-                      <span class="table-title">
-                        Quantity
-                        <i class="bi bi-caret-up-fill sort-up"></i>
-                        <i class="bi bi-caret-down-fill sort-down"></i>
-                      </span>
-                    </th>
-                    <th style="min-width:100px">
-                      <span class="table-title">
-                        Entry Date
-                        <i class="bi bi-caret-up-fill sort-up"></i>
-                        <i class="bi bi-caret-down-fill sort-down"></i>
-                      </span>
-                    </th>
+
                     <th style="min-width:100px">
                       <span class="table-title">
                         Status
@@ -165,19 +122,14 @@ include("layout/head.php");
                 <tbody style="border-top: 0">
                   <tr>
                     <td><span>1</span></td>
+                    <td><span>G M SARWAR SHOOMON</span></td>
                     <td>
                       <div class="table-image">
                         <img src="images/profile.jpg" alt="">
                       </div>
                     </td>
-                    <td><span>G M SARWAR SHOOMON</span></td>
-                    <td><span>T-shart</span></td>
-                    <td><span>Fashon</span></td>
-                    <td><span>T-008</span></td>
-                    <td><span>1000</span></td>
-                    <td><span>100</span></td>
                     <td><span>5 Jul 2023</span></td>
-                    <td class="status status-pending"><span>Pending</span></td>
+                    <td class="status status-success"><span>active</span></td>
                     <td><span>
                         <a href="product-view.html">
                           <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete view"><i class="fa-solid fa-eye"></i></span>
@@ -188,19 +140,14 @@ include("layout/head.php");
                   </tr>
                   <tr>
                     <td><span>1</span></td>
+                    <td><span>G M SARWAR SHOOMON</span></td>
                     <td>
                       <div class="table-image">
                         <img src="images/profile.jpg" alt="">
                       </div>
                     </td>
-                    <td><span>G M SARWAR SHOOMON</span></td>
-                    <td><span>T-shart</span></td>
-                    <td><span>Fashon</span></td>
-                    <td><span>T-008</span></td>
-                    <td><span>1000</span></td>
-                    <td><span>100</span></td>
                     <td><span>5 Jul 2023</span></td>
-                    <td class="status status-approve"><span>Approved</span></td>
+                    <td class="status status-danger"><span>inactive</span></td>
                     <td><span>
                         <a href="product-view.html">
                           <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete view"><i class="fa-solid fa-eye"></i></span>

@@ -4,13 +4,14 @@
 .bread-crumb-part {
   width: 100%;
   height: 50px;
-  background-color: $breadcrumbBgColor;
+  // background-color: $breadcrumbBgColor;
+  background-color: $dashboardBgColor;
   padding: 0 29px;
   z-index: 99;
 
   h3 {
-    font-size: 18px;
-    color: $breadcrumbDarkColor;
+    font-size: 22px;
+    color: $darkColor;
     line-height: 50px;
   }
 
@@ -39,7 +40,7 @@
       }
 
       a {
-        color: $themeColorFour;
+        color: $sidebarBgColor;
       }
     }
   }

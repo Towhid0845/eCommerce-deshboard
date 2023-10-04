@@ -1,6 +1,6 @@
 .main-content-body {
   height: 100vh;
-  margin-left: 250px;
+  margin-left: 280px;
   background-color: $dashboardBgColor;
 
   .content-part {
@@ -207,125 +207,6 @@ p {
       background-color: #FFF8DD;
     }
   }
-
-
-  // .projects {
-  //   width: 100%;
-  //   background-color: $lightColor;
-  //   border-radius: 7px;
-  //   box-shadow: 0 1px 20px 0 #455a6414;
-  //   padding: 24px;
-
-  //   .title {
-  //     padding-bottom: 12px;
-  //   }
-
-    //   h4 {
-    //     font-size: 17px;
-    //     color: $dashDarkTextColor;
-    //   }
-
-    //   th {
-    //     font-size: 15px;
-    //     font-weight: 500;
-    //     color: #404e67e6;
-    //   }
-
-    //   tr {
-    //     vertical-align: middle;
-    //   }
-
-    //   td {
-    //     color: $dashGrayTextColor;
-    //     font-weight: 400;
-    //     font-size: 14px;
-    //   }
-
-    //   .released {
-    //     background-color: #FF5B5B;
-    //     border: 0;
-    //     color: $lightColor;
-    //     border-radius: 5px;
-    //     padding: 2px 5px;
-    //     font-size: 12px;
-    //   }
-
-    //   .released.pending {
-    //     background-color: #00BCD4;
-    //   }
-
-    //   .released.in-progress {
-    //     background-color: #5B69BC;
-    //   }
-
-    //   .released.comming {
-    //     background-color: #188AE2;
-    //   }
-
-    //   .released.finish {
-    //     background-color: #F9BC0B;
-    //   }
-
-    //   .delete {
-    //     width: 25px;
-    //     height: 25px;
-    //     border-radius: 3px;
-    //     text-align: center;
-    //     line-height: 25px;
-    //     display: inline-block;
-    //     cursor: pointer;
-    //     transition: all linear .2s;
-    //     font-size: 12px;
-    //     margin: 0 1px;
-    //     background-color: #f5f8fa;
-    //   }
-
-    //   .delete-btn {
-    //     border: 1px solid $themeColorThree;
-    //     color: $themeColorThree;
-
-    //     &:hover {
-    //       background-color: $themeColorThree;
-    //       color: $lightColor
-    //     }
-    //   }
-
-    //   .view {
-    //     border: 1px solid $themeColorFive;
-    //     color: $themeColorFive;
-
-    //     &:hover {
-    //       background-color: $themeColorFive;
-    //       color: $lightColor;
-    //     }
-    //   }
-
-    //   .edit {
-    //     border: 1px solid $themeColorSix;
-    //     color: $themeColorSix;
-
-    //     &:hover {
-    //       background-color: $themeColorSix;
-    //       color: $lightColor;
-    //     }
-    //   }
-    // }
-
-    // .project-table {
-    //   overflow-y: scroll;
-    //   height: 361px;
-    //   scrollbar-width: thin;
-    //   scrollbar-color: #01B3B7 transparent;
-
-    //   &::-webkit-scrollbar {
-    //     width: 8px;
-    //   }
-
-    //   &::-webkit-scrollbar-thumb {
-    //     background-color: #01B3B7;
-    //   }
-    // }
-
 .visitors,
 .recent-orders,
 .payments,

@@ -2,7 +2,7 @@
 @import "../variable/textcolor";
 
 .top-header {
-  background-color: $topbarBgColor;
+  background-color: $lightColor;
   z-index: 99;
   border-bottom: 1px solid $commonBorderColor;
   width: 100%;
@@ -14,7 +14,7 @@
 
   .control-bar {
     i {
-      color: $topbarWhiteColor;
+      color: $black;
       font-size: 18px;
       cursor: pointer;
       padding: 0 21px;
@@ -65,7 +65,7 @@
     }
 
     .bell {
-      color: $topbarWhiteColor;
+      color: $black;
       font-size: 16px;
       position: relative;
       padding: 10px;
@@ -100,7 +100,7 @@
     ul {
       li {
         display: inline-block;
-        color: $topbarWhiteColor;
+        color: $black;
         font-weight: 400;
 
         i {
@@ -435,7 +435,7 @@
 
 .fixed {
   position: fixed;
-  padding-left: 250px;
+  padding-left: 280px;
   top: 0;
   left: 0;
   width: 100%;

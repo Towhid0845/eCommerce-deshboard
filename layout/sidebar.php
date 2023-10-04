@@ -44,7 +44,7 @@
         <li>
           <div class="link">
             <a href="order.php" class="ps-0 pe-0">
-              <span class="icon"><i class="bi bi-bag-check"></i></span>
+              <span class="icon"><i class="bi bi-cart-check"></i></span>
               <span class="title">
                 Order
                 <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
@@ -54,14 +54,14 @@
         </li>
         <li>
           <div class="link">
-            <span class="icon"><i class="bi bi-bag-check"></i></span>
+            <span class="icon"><i class="fa-solid fa-list-check"></i></span>
             <span class="title">
               Attribute Setup
               <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
             </span>
           </div>
           <ul class="submenu title">
-            <li><a href="product.php"><i class="fas fa-angle-right"></i>Category</a></li>
+            <li><a href="category.php"><i class="fas fa-angle-right"></i>Category</a></li>
             <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Brand</a></li>
             <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Color</a></li>
             <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Size</a></li>

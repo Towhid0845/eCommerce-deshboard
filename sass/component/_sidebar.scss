@@ -8,8 +8,9 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 250px;
+  width: 280px;
   z-index: 999;
+  padding: 0 15px;
 
   .logo {
     padding-left: 20px;
@@ -47,8 +48,9 @@
             display: block;
             width: 100%;
             padding: 0 20px;
-            line-height: 46px;
+            line-height: 40px;
             transition: all linear .3s;
+            font-size: 14px;
 
             &:hover {
               color: $sidebarTextHoverColor;
@@ -125,15 +127,19 @@
     cursor: pointer;
     display: block;
     padding: 0 20px;
-    color: $sidebarTextColor;
+    color: $lightColor;
     font-weight: 500;
     -webkit-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
-    line-height: 46px;
+    line-height: 40px;
+    margin: 10px 0;
+    font-size: 14px;
 
     &:hover {
-      color: $sidebarTextHoverColor;
+      // color: $sidebarTextHoverColor;
+      background-color: rgba(235, 225, 225, .1);
+      border-radius: 10px;
 
       i {
         color: $sidebarTextHoverColor;
@@ -154,9 +160,9 @@
     }
 
     i {
-      color: $sidebarTextColor;
+      color: $lightColor;
       transition: all 0.4s ease;
-      font-size: 18px;
+      font-size: 17px;
     }
 
     transition: all linear .2s;
@@ -172,7 +178,7 @@
       }
     }
 
-    background-color: #566580;
+    background-color: $sidebarBgColor;
   }
 
   li.default {
@@ -184,7 +190,9 @@
   }
 
   li.active {
-    background-color: #566580;
+    // background-color: #566580;
+    border-radius: 10px;
+    background-color: rgba(235, 225, 225, .3);
   }
 }
 
@@ -204,11 +212,12 @@
     line-height: 36px !important;
 
     &:hover {
-      color: $sidebarThemeTextColor !important;
+      // color: $sidebarThemeTextColor !important;
+      background-color: rgba(235, 225, 225, .1);
 
-      i {
-        color: $sidebarThemeTextColor !important;
-      }
+      // i {
+      //   color: $sidebarThemeTextColor !important;
+      // }
     }
 
     i {
