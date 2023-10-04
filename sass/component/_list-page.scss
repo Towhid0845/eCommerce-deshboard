@@ -436,6 +436,16 @@
     color: $lightColor;
   }
 }
+.locate {
+  border: 1px solid $themeColorTwo;
+  color: $themeColorTwo;
+
+  &:hover {
+    background-color: $themeColorTwo;
+    color: $lightColor;
+  }
+}
+
 
 .sorting-data {
   .sort-number {

@@ -21,6 +21,7 @@ include("layout/head.php");
       <!-- content part start -->
       <div class="content-part">
         <div class="inner-content">
+          <!-- add or back button start -->
           <div class="row">
             <div class="col-12">
               <div class="btn-back position-relative">
@@ -37,6 +38,8 @@ include("layout/head.php");
               </div>
             </div>
           </div>
+          <!-- add or back button end -->
+
           <!-- search header -->
           <div class="search-section">
             <div class="row">
@@ -87,33 +90,9 @@ include("layout/head.php");
             </div>
           </div>
           <!-- table data showing sorting & number of data -->
-          <div class="sorting-data mt-3">
-            <div class="row">
-              <div class="col-sm-6 col-lg-6 align-self-end">
-                <div class="showing-number">
-                  <span> Showing <span class="single-number">1</span> to <span class="single-number">
-                      <div class="form-element mb-0 d-inline-block mx-1">
-                        <select class="form-select sort-number shadow-none" aria-label="Default select example">
-                          <option selected>100</option>
-                          <option value="1">10</option>
-                          <option value="2">20</option>
-                          <option value="3">30</option>
-                        </select>
-                      </div>
-                    </span> of <span class="single-number">4</span> entries </span>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-6 ms-auto">
-                <div class="print-option ms-2 mt-4 ms-sm-0 mt-sm-0 text-start text-sm-end">
-                  <ul>
-                    <li><a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="printer" href=""><i class="bi bi-printer-fill"></i></a></li>
-                    <li><a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="pdf" href=""><i class="fa-solid fa-file-pdf"></i></a></li>
-                    <li><a data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="excel" href=""><i class="fas fa-file-excel" aria-hidden="true"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+          <?php
+          include("layout/sorting.php")
+          ?>
           <!-- table data list -->
           <div class="table-list mt-3">
             <div class="table-list-body table-responsive">
@@ -235,24 +214,9 @@ include("layout/head.php");
             </div>
           </div>
           <!-- number of data and pagination -->
-          <div class="list-footer">
-            <div class="row">
-              <div class="col-md-5 col-lg-6 align-self-center">
-                <div class="showing-number">
-                  <p> Showing <span class="single-number">1</span> to <span class="single-number">4</span> of <span class="single-number">4</span> entries </p>
-                </div>
-              </div>
-              <div class="col-md-7 col-lg-6">
-                <div class="pagination mt-4 mt-md-0 d-flex justify-content-start justify-content-md-end">
-                  <ul>
-                    <li class="arrow"><a href="#"><i class="bi bi-arrow-left"></i></a></li>
-                    <li class="mid-pagi"><a href="#"><span>2</span></a><a href="#"><span>3</span></a><a class="active" href="#"><span>4</span></a><a href="#"><span>5</span></a><a href="#"><span>6</span></a><a href="#"><span>7</span></a></li>
-                    <li class="arrow"><a href="#"><i class="bi bi-arrow-right"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
+          <?php
+          include("layout/list-footer.php")
+          ?>
         </div>
       </div>
       <!-- content part end -->

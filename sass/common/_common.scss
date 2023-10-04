@@ -102,11 +102,54 @@ body {
 
     &:hover {
       border-color: $glow !important;
+      box-shadow: 0 0 5px $glow !important;
     }
 
     &:focus {
       border-color: $success !important;
-    }
-  }
+      box-shadow: 0 0 5px $glow !important;
+      }
+      }
+
+      }
+
+      // common status color design
+
+      .status span {
+        padding: 5px 10px;
+        text-transform: capitalize;
+        display: inline-block;
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: 400;
+      }
+
+      .status.status-danger span {
+        background-color: rgba(0, 0, 0, 0.15);
+        color: #303030;
+
+      }
+.status.status-close span {
+  background-color: rgba(47, 135, 51, 0.15);
+  color: #2f8733;
+}
+
+.status.status-approve span {
+  background-color: rgba(3, 148, 135, 0.15);
+  color: #039487;
+}
+
+.status.status-processing span {
+  background-color: rgba(255, 221, 0, .15);
+  color: #909308;
+}
+.status.status-delivered span {
+  background-color: rgba(68, 0, 255, 0.15);
+  color: #081d93;
+}
+
+.status.status-cancel span {
+  background-color: rgba(226, 36, 84, 0.15);
+  color: #e22454;
 
 }

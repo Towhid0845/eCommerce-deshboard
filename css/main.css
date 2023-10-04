@@ -83,12 +83,46 @@ body {
   .form-element textarea:hover,
   .form-element select:hover,
   .form-element .upload-box label:hover {
-    border-color: #ffce43e8 !important; }
+    border-color: #ffce43e8 !important;
+    box-shadow: 0 0 5px #ffce43e8 !important; }
   .form-element input:focus,
   .form-element textarea:focus,
   .form-element select:focus,
   .form-element .upload-box label:focus {
-    border-color: #32c861 !important; }
+    border-color: #32c861 !important;
+    box-shadow: 0 0 5px #ffce43e8 !important; }
+
+.status span {
+  padding: 5px 10px;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 400; }
+
+.status.status-danger span {
+  background-color: rgba(0, 0, 0, 0.15);
+  color: #303030; }
+
+.status.status-close span {
+  background-color: rgba(47, 135, 51, 0.15);
+  color: #2f8733; }
+
+.status.status-approve span {
+  background-color: rgba(3, 148, 135, 0.15);
+  color: #039487; }
+
+.status.status-processing span {
+  background-color: rgba(255, 221, 0, 0.15);
+  color: #909308; }
+
+.status.status-delivered span {
+  background-color: rgba(68, 0, 255, 0.15);
+  color: #081d93; }
+
+.status.status-cancel span {
+  background-color: rgba(226, 36, 84, 0.15);
+  color: #e22454; }
 
 .top-header {
   background-color: #373781;
@@ -1318,7 +1352,7 @@ body {
   position: sticky;
   top: 0;
   bottom: 0;
-  background-color: #F1F1FF; }
+  background-color: rgba(241, 241, 255, 0.5); }
 .table-list .title {
   padding-bottom: 12px; }
 .table-list tbody td {
@@ -1460,13 +1494,20 @@ body {
     background-color: #02C0CE;
     color: #fff; }
 
+.locate {
+  border: 1px solid #0ACF97;
+  color: #0ACF97; }
+  .locate:hover {
+    background-color: #0ACF97;
+    color: #fff; }
+
 .sorting-data .sort-number {
   height: 30px;
   border-radius: 2px; }
 
 .search-section {
   padding: 20px;
-  background-color: #F1F1FF; }
+  background-color: rgba(241, 241, 255, 0.5); }
 
 .gallery-list .image {
   position: relative;
@@ -2000,7 +2041,7 @@ body {
 .add-product-form .product-block {
   width: 100%;
   border: 1px solid #82888d;
-  background-color: #F1F1FF;
+  background-color: rgba(241, 241, 255, 0.5);
   position: relative;
   padding: 30px 20px;
   margin-bottom: 50px; }
@@ -2051,25 +2092,5 @@ body {
   border-radius: 3px; }
   .product-record:hover {
     color: #fff !important; }
-
-.status-danger span {
-  background-color: rgba(226, 36, 84, 0.15);
-  color: #e22454;
-  padding: 5px 10px;
-  text-transform: capitalize;
-  display: inline-block;
-  border-radius: 5px;
-  font-size: 12px;
-  font-weight: 400; }
-
-.status-close span {
-  background-color: rgba(47, 135, 51, 0.15);
-  color: #2f8733;
-  padding: 5px 10px;
-  text-transform: capitalize;
-  display: inline-block;
-  border-radius: 5px;
-  font-size: 12px;
-  font-weight: 400; }
 
 /*# sourceMappingURL=main.css.map */

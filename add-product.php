@@ -228,17 +228,15 @@ include("layout/head.php");
                         <input class="" type="text" placeholder="discount price">
                       </div>
                     </div>
-                    <!-- <div class="col-lg-3">
-                      <div class="form-element">
-                        <label for="" class="d-block w-100">
-                          Status
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                        </label>
-                        <input type="radio" id="active" name="fav_language" value="HTML">
-                        <input type="radio" id="deactive" name="fav_language" value="HTML">
+                    <div class="col-lg-3 mb-3">
+                      <label class="form-label">Status</label>
+                      <div class="d-flex justify-content-start">
+                        <div class="form-check me-3">
+                          <input class="form-check-input shadow-none" type="radio" id="radio0" name="status" value="active"><label class="form-check-label" for="radio0">Active</label>
+                        </div>
+                        <div class="form-check"><input class="form-check-input shadow-none" type="radio" id="radio1" name="status" value="deactive"><label class="form-check-label" for="radio1">Deactive</label></div>
                       </div>
-                    </div> -->
-
+                    </div>
                   </div>
                 </div>
               </div>
