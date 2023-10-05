@@ -40,6 +40,11 @@ include("layout/head.php");
           </div>
           <!-- add or back button end -->
 
+          <!-- alert section start -->
+          <!-- <?php
+            include("layout/alert-box.php")
+          ?> -->
+
           <!-- search header -->
           <div class="search-section">
             <div class="row">
@@ -180,10 +185,13 @@ include("layout/head.php");
                     <td class="status status-pending"><span>Pending</span></td>
                     <td><span>
                         <a href="product-view.html">
-                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete view"><i class="fa-solid fa-eye"></i></span>
+                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                            class="delete view"><i class="fa-solid fa-eye"></i></span>
                         </a>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete edit"><i class="fas fa-pencil-alt"></i></span>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
                     </td>
                   </tr>
                   <tr>
@@ -203,10 +211,13 @@ include("layout/head.php");
                     <td class="status status-approve"><span>Approved</span></td>
                     <td><span>
                         <a href="product-view.html">
-                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete view"><i class="fa-solid fa-eye"></i></span>
+                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                            class="delete view"><i class="fa-solid fa-eye"></i></span>
                         </a>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete edit"><i class="fas fa-pencil-alt"></i></span>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
                     </td>
                   </tr>
                 </tbody>

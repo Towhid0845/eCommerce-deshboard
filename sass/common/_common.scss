@@ -153,3 +153,46 @@ body {
   color: #e22454;
 
 }
+
+
+// alert box css
+.alert-box{
+  width: 500px;
+margin-bottom: 30px;
+ i {
+  color: white;
+  top: 50%;
+  width: 30px;
+  left: 15px;
+  font-size: 30px;
+  line-height: 28px;
+  transform: translate(0%, -50%);
+  height: 30px;
+  background: red;
+  border-radius: 50%;
+}
+
+.alert-list {
+  color: #000000;
+  padding: 20px;
+  background: #FBFBED;
+  border: 4px solid #ffa53b;
+  border-left: 60px solid #ffa53b;
+  border-radius: 2px;
+  min-height: 150px;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+
+  h5{
+    padding-bottom: 10px;
+  }
+  h6{
+    padding-bottom: 5px;
+  }
+  li{
+    padding-left: 20px;
+  }
+}
+}
