@@ -25,7 +25,7 @@ include("layout/head.php");
           <div class="row">
             <div class="col-12">
               <div class="btn-back position-relative">
-                <a href="#" class="position-absolute btn-back-pos overflow-hidden">
+                <a href="add-category.php" class="position-absolute btn-back-pos overflow-hidden">
                   <div class="combo">
                     <!-- if (back) -->
                     <!-- <i class="fa-solid fa-circle-left"></i> -->
@@ -132,10 +132,13 @@ include("layout/head.php");
                     <td class="status status-success"><span>active</span></td>
                     <td><span>
                         <a href="product-view.html">
-                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete view"><i class="fa-solid fa-eye"></i></span>
+                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                            class="delete view"><i class="fa-solid fa-eye"></i></span>
                         </a>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete edit"><i class="fas fa-pencil-alt"></i></span>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
                     </td>
                   </tr>
                   <tr>
@@ -150,10 +153,13 @@ include("layout/head.php");
                     <td class="status status-danger"><span>inactive</span></td>
                     <td><span>
                         <a href="product-view.html">
-                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete view"><i class="fa-solid fa-eye"></i></span>
+                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                            class="delete view"><i class="fa-solid fa-eye"></i></span>
                         </a>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete edit"><i class="fas fa-pencil-alt"></i></span>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
                     </td>
                   </tr>
                 </tbody>

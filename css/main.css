@@ -1485,7 +1485,7 @@ body {
 .pagination ul li.mid-pagi a.active {
   width: 25px;
   height: 25px;
-  background-color: #a2d5d2;
+  background-color: #019289;
   border-radius: 50%;
   text-align: center;
   line-height: 25px;
@@ -2071,14 +2071,11 @@ body {
 .cmn__btn.delete {
   background-color: #F1556C; }
 
-.add-product-form .product-block {
-  width: 100%;
+.add-product-form .border-block {
   border: 1px solid #82888d;
   background-color: rgba(241, 241, 255, 0.5);
-  position: relative;
-  padding: 30px 20px;
-  margin-bottom: 50px; }
-  .add-product-form .product-block .label-text {
+  position: relative; }
+  .add-product-form .border-block .label-text {
     position: absolute;
     top: -20px;
     left: 14px;
@@ -2088,6 +2085,10 @@ body {
     background-color: #fff;
     padding: 7px 15px;
     font-weight: 500; }
+.add-product-form .product-block {
+  width: 100%;
+  padding: 30px 20px;
+  margin-bottom: 50px; }
 .add-product-form .submit-btn {
   background-color: #F1556C;
   padding: 10px 30px;
@@ -2125,5 +2126,36 @@ body {
   border-radius: 3px; }
   .product-record:hover {
     color: #fff !important; }
+
+.add-category-form .border-block {
+  background-color: rgba(241, 241, 255, 0.5); }
+.add-category-form .category-block {
+  width: 100%;
+  padding: 30px 20px;
+  margin-bottom: 50px; }
+.add-category-form .submit-btn {
+  background-color: #F1556C;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 0;
+  color: #fff;
+  border-radius: 3px; }
+
+.search-div {
+  width: 300px;
+  height: 150px; }
+  .search-div .template-div {
+    box-shadow: 0 1px 20px 0 #455a646b; }
+    .search-div .template-div .status {
+      font-size: 20px;
+      color: #0ACF97; }
+    .search-div .template-div .count {
+      font-size: 24px;
+      color: #0ACF97; }
+    .search-div .template-div .icon {
+      width: 50px;
+      height: 50px; }
 
 /*# sourceMappingURL=main.css.map */

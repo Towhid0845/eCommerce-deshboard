@@ -2,25 +2,27 @@
 @import "../variable/textcolor";
 
 .add-product-form {
-  .product-block {
-    width: 100%;
+  .border-block{
     border: 1px solid $commonBorderColor1;
     background-color: $lightColor1;
     position: relative;
-    padding: 30px 20px;
-    margin-bottom: 50px;
 
     .label-text {
-      position: absolute;
-      top: -20px;
-      left: 14px;
-      font-size: 18px;
-      color: $black;
-      border: 1px solid $glow;
-      background-color: $lightColor;
-      padding: 7px 15px;
-      font-weight: 500;
-    }
+    position: absolute;
+    top: -20px;
+    left: 14px;
+    font-size: 18px;
+    color: $black;
+    border: 1px solid $glow;
+    background-color: $lightColor;
+    padding: 7px 15px;
+    font-weight: 500;
+  }
+  }
+  .product-block {
+    width: 100%;
+    padding: 30px 20px;
+    margin-bottom: 50px;
   }
 
   .submit-btn {

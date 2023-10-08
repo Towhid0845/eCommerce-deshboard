@@ -1,0 +1,27 @@
+@import "../variable/bgcolor";
+@import "../variable/textcolor";
+
+
+.search-div{
+  width: 300px;
+  height: 150px;
+  
+  .template-div{
+    box-shadow: 0 1px 20px 0 #455a646b;
+  
+    .status{
+      font-size: 20px;
+      color: $themeColorTwo;
+    }
+    .count{
+      font-size: 24px;
+      color: $themeColorTwo;
+
+    }
+
+  .icon{
+    width: 50px;
+    height: 50px;
+  }
+}
+}

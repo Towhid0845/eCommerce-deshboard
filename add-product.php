@@ -41,7 +41,7 @@ include("layout/head.php");
           <!-- add product form part start -->
           <div class="add-product-form mt-3">
             <form action="product.php">
-              <div class="product-block">
+              <div class="product-block border-block">
                 <div class="form-details">
                   <div class="row">
                     <div class="col-lg-3">
@@ -77,7 +77,7 @@ include("layout/head.php");
                   </div>
                 </div>
               </div>
-              <div class="product-block">
+              <div class="product-block border-block">
                 <h4 class="label-text">Product Specification</h4>
                 <div class="form-details">
                   <div class="row">
@@ -85,7 +85,8 @@ include("layout/head.php");
                       <div class="form-element">
                         <label for="" class="d-block w-100">
                           Name
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <input class="" type="text" placeholder="product name">
                       </div>
@@ -115,7 +116,8 @@ include("layout/head.php");
                       <div class="form-element">
                         <label for="" class="d-block w-100">
                           Product No
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <input class="" type="text" placeholder="prduct no">
                       </div>
@@ -124,7 +126,8 @@ include("layout/head.php");
                       <div class="form-element">
                         <label for="" class="d-block w-100">
                           Model No
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <input class="" type="text" placeholder="model no">
                       </div>
@@ -133,7 +136,8 @@ include("layout/head.php");
                       <div class="form-element">
                         <label for="" class="d-block w-100">
                           Manufacture Name
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <!-- <input class="" type="date"> -->
                         <input class="" type="text" placeholder="manufacture name">
@@ -143,7 +147,8 @@ include("layout/head.php");
                       <div class="form-element">
                         <label for="" class="d-block w-100">
                           Manufacture Country
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <input class="" type="text" placeholder="manufacture country">
                       </div>
@@ -152,7 +157,8 @@ include("layout/head.php");
                       <div class="form-element">
                         <label for="" class="d-block w-100">
                           Country of Origin
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <input class="" type="text" placeholder="original country">
                       </div>
@@ -161,7 +167,8 @@ include("layout/head.php");
                       <div class="form-element">
                         <label for="" class="d-block w-100">
                           Product Date
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <input class="" type="date">
                       </div>
@@ -171,7 +178,8 @@ include("layout/head.php");
                       <div class="form-element">
                         <label for="" class="d-block w-100">
                           Tag
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <input class="" type="text" placeholder="type tag & hit enter">
                       </div>
@@ -179,7 +187,7 @@ include("layout/head.php");
                   </div>
                 </div>
               </div>
-              <div class="product-block">
+              <div class="product-block border-block">
                 <h4 class="label-text">Product Price</h4>
                 <div class="form-details">
                   <div class="row">
@@ -187,7 +195,8 @@ include("layout/head.php");
                       <div class="form-element">
                         <label for="" class="d-block w-100">
                           Product Price
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <input class="" type="text" placeholder="product price">
                       </div>
@@ -196,7 +205,8 @@ include("layout/head.php");
                       <div class="form-element">
                         <label for="" class="d-block w-100">
                           Retail Price
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <input class="" type="text" placeholder="retail price">
                       </div>
@@ -205,7 +215,8 @@ include("layout/head.php");
                       <div class="form-element">
                         <label for="" class="d-block w-100">
                           Dealer Price
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <input class="" type="text" placeholder="dealer price">
                       </div>
@@ -214,7 +225,8 @@ include("layout/head.php");
                       <div class="form-element">
                         <label for="" class="d-block w-100">
                           Price
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <input class="" type="text" placeholder="price">
                       </div>
@@ -223,7 +235,8 @@ include("layout/head.php");
                       <div class="form-element">
                         <label for="" class="d-block w-100">
                           Discount Price
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <input class="" type="text" placeholder="discount price">
                       </div>
@@ -232,22 +245,26 @@ include("layout/head.php");
                       <label class="form-label">Status</label>
                       <div class="d-flex justify-content-start">
                         <div class="form-check me-3">
-                          <input class="form-check-input shadow-none" type="radio" id="radio0" name="status" value="active"><label class="form-check-label" for="radio0">Active</label>
+                          <input class="form-check-input shadow-none" type="radio" id="radio0" name="status"
+                            value="active"><label class="form-check-label" for="radio0">Active</label>
                         </div>
-                        <div class="form-check"><input class="form-check-input shadow-none" type="radio" id="radio1" name="status" value="deactive"><label class="form-check-label" for="radio1">Deactive</label></div>
+                        <div class="form-check"><input class="form-check-input shadow-none" type="radio" id="radio1"
+                            name="status" value="deactive"><label class="form-check-label" for="radio1">Deactive</label>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="product-block">
+              <div class="product-block border-block">
                 <h4 class="label-text">Product Price</h4>
                 <div class="form-details">
                   <div class="row">
                     <div class="col-lg-3">
                       <div class="form-element d-flex flex-wrap">
                         <label for="" class="d-block w-100">
-                          Image One <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          Image One <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <div class="image-box position-relative">
                           <img src="images/prf.png" alt="prf">
@@ -264,7 +281,8 @@ include("layout/head.php");
                     <div class="col-lg-3">
                       <div class="form-element d-flex flex-wrap">
                         <label for="" class="d-block w-100">
-                          Image Two <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          Image Two <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <div class="image-box position-relative">
                           <img src="images/prf.png" alt="prf">
@@ -281,7 +299,8 @@ include("layout/head.php");
                     <div class="col-lg-3">
                       <div class="form-element d-flex flex-wrap">
                         <label for="" class="d-block w-100">
-                          Image Three <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          Image Three <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <div class="image-box position-relative">
                           <img src="images/prf.png" alt="prf">
@@ -298,7 +317,8 @@ include("layout/head.php");
                     <div class="col-lg-3">
                       <div class="form-element d-flex flex-wrap">
                         <label for="" class="d-block w-100">
-                          Image Four <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          Image Four <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                         </label>
                         <div class="image-box position-relative">
                           <img src="images/prf.png" alt="prf">
