@@ -47,7 +47,7 @@
               <span class="icon"><i class="bi bi-cart-check"></i></span>
               <span class="title">
                 Order
-                <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+                <!-- <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span> -->
               </span>
             </a>
           </div>
@@ -91,8 +91,8 @@
             </span>
           </div>
           <ul class="submenu title">
-            <li><a href="product.php"><i class="fas fa-angle-right"></i> User List</a></li>
-            <li><a href="create-product.php"><i class="fas fa-angle-right"></i>Add New user</a></li>
+            <li><a href="user.php"><i class="fas fa-angle-right"></i> User List</a></li>
+            <li><a href="add-user.php"><i class="fas fa-angle-right"></i>Add New user</a></li>
           </ul>
         </li>
         <li>
@@ -132,22 +132,21 @@
         </li>
         <li>
           <div class="link">
-            <a href="" class="ps-0 pe-0">
+            <a href="discount.php" class="ps-0 pe-0">
               <span class="icon"><i class="bi bi-bag-check"></i></span>
               <span class="title">
                 Discount
-                <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
               </span>
             </a>
           </div>
         </li>
         <li>
           <div class="link">
-            <a href="" class="ps-0 pe-0">
+            <a href="coupon.php" class="ps-0 pe-0">
               <span class="icon"><i class="bi bi-bag-check"></i></span>
               <span class="title">
                 Coupon
-                <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+                <!-- <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span> -->
               </span>
             </a>
           </div>

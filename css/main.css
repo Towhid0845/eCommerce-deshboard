@@ -116,6 +116,10 @@ body {
   background-color: rgba(255, 221, 0, 0.15);
   color: #909308; }
 
+.status.status-shipped span {
+  background-color: rgba(47, 135, 51, 0.15);
+  color: #2f8733; }
+
 .status.status-delivered span {
   background-color: rgba(68, 0, 255, 0.15);
   color: #081d93; }
@@ -1100,7 +1104,7 @@ body {
 .inner-content {
   background-color: #fff;
   padding: 30px;
-  margin: 0 100px 30px;
+  margin: 0 0 30px;
   position: relative; }
 
 .form-element label {
@@ -1211,6 +1215,12 @@ body {
     font-size: 16px;
     font-weight: 500;
     border-radius: 5px; }
+
+.form-label {
+  color: #404E67; }
+
+.form-check .form-check-label {
+  color: #404E67; }
 
 .form-element {
   margin-bottom: 10px; }
@@ -1385,11 +1395,15 @@ body {
   position: sticky;
   top: 0;
   bottom: 0;
-  background-color: #ad7322; }
+  background-color: #019289; }
+  .table-list thead th:first-child {
+    text-align: center; }
 .table-list .title {
   padding-bottom: 12px; }
 .table-list tbody td {
   padding: .3rem .5rem; }
+.table-list tbody td:first-child {
+  text-align: center; }
 .table-list h4 {
   font-size: 17px;
   color: #404E67; }
@@ -2144,18 +2158,57 @@ body {
   border-radius: 3px; }
 
 .search-div {
-  width: 300px;
-  height: 150px; }
-  .search-div .template-div {
-    box-shadow: 0 1px 20px 0 #455a646b; }
-    .search-div .template-div .status {
-      font-size: 20px;
-      color: #0ACF97; }
-    .search-div .template-div .count {
-      font-size: 24px;
-      color: #0ACF97; }
-    .search-div .template-div .icon {
-      width: 50px;
-      height: 50px; }
+  margin-bottom: 24px;
+  width: 100%; }
+
+.template-div {
+  box-shadow: 0 1px 20px 0 #455a646b;
+  padding: 20px; }
+
+.status-pending h3 {
+  font-size: 20px;
+  color: #303030; }
+.status-pending h4 {
+  font-size: 24px;
+  color: #131111; }
+
+.status-approve h3 {
+  font-size: 20px;
+  color: #01c500; }
+.status-approve h4 {
+  font-size: 24px;
+  color: #007a0a; }
+
+.status-process h3 {
+  font-size: 20px;
+  color: #ffca00; }
+.status-process h4 {
+  font-size: 24px;
+  color: #d9a200; }
+
+.status-ship h3 {
+  font-size: 20px;
+  color: #00c5a2; }
+.status-ship h4 {
+  font-size: 24px;
+  color: #009177; }
+
+.status-deliver h3 {
+  font-size: 20px;
+  color: #0020d7; }
+.status-deliver h4 {
+  font-size: 24px;
+  color: #041eaf; }
+
+.status-cancel h3 {
+  font-size: 20px;
+  color: #e22424; }
+.status-cancel h4 {
+  font-size: 24px;
+  color: #d10202; }
+
+.icon {
+  width: 40px;
+  height: 40px; }
 
 /*# sourceMappingURL=main.css.map */

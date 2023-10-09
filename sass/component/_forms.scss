@@ -4,7 +4,7 @@
 .inner-content {
   background-color: $lightColor;
   padding: 30px;
-  margin: 0 100px 30px;
+  margin: 0 0 30px;
   position: relative;
 }
 
@@ -167,3 +167,12 @@
   }
 }
 
+.form-label {
+  color: #404E67;
+}
+
+.form-check {
+  .form-check-label {
+    color: #404E67;
+  }
+}

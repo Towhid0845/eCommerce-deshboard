@@ -2,26 +2,86 @@
 @import "../variable/textcolor";
 
 
-.search-div{
-  width: 300px;
-  height: 150px;
-  
-  .template-div{
-    box-shadow: 0 1px 20px 0 #455a646b;
-  
-    .status{
-      font-size: 20px;
-      color: $themeColorTwo;
-    }
-    .count{
-      font-size: 24px;
-      color: $themeColorTwo;
+.search-div {
+  margin-bottom: 24px;
+  width: 100%;
+}
 
-    }
+.template-div {
+  box-shadow: 0 1px 20px 0 #455a646b;
+  padding: 20px;
+}
 
-  .icon{
-    width: 50px;
-    height: 50px;
+.status-pending {
+  h3 {
+    font-size: 20px;
+    color: #303030;
+  }
+
+  h4 {
+    font-size: 24px;
+    color: #131111;
   }
 }
+
+.status-approve {
+  h3 {
+    font-size: 20px;
+    color: #01c500;
+  }
+
+  h4 {
+    font-size: 24px;
+    color: #007a0a;
+  }
+}
+
+.status-process {
+  h3 {
+    font-size: 20px;
+    color: #ffca00;
+  }
+
+  h4 {
+    font-size: 24px;
+    color: #d9a200;
+  }
+}
+  
+        .status-ship {
+          h3 {
+            font-size: 20px;
+            color: #00c5a2;
+          }
+    
+          h4 {
+            font-size: 24px;
+            color: #009177;
+          }
+        }
+.status-deliver {
+  h3 {
+    font-size: 20px;
+    color: #0020d7;
+    }
+h4 {
+  font-size: 24px;
+    color: #041eaf;
+    }
+    }
+
+.status-cancel {
+  h3 {
+    font-size: 20px;
+    color: #e22424;
+}
+
+h4 {
+  font-size: 24px;
+  color: #d10202;
+}
+}
+.icon {
+  width: 40px;
+  height: 40px;
 }

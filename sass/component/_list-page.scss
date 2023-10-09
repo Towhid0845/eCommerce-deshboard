@@ -232,8 +232,13 @@
     top: 0;
     bottom: 0;
     // background-color: $darkColor;
-    background-color: $orange2;
-  }
+    // background-color: $orange2;
+      background-color: $sidebarBgColor;
+    
+      th:first-child {
+        text-align: center;
+      }
+    }
 
   .title {
     padding-bottom: 12px;
@@ -243,6 +248,9 @@
     td {
       padding: .3rem .5rem;
     }
+                td:first-child {
+                  text-align: center;
+                }
   }
 
   h4 {

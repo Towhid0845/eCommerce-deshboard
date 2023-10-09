@@ -25,7 +25,7 @@ include("layout/head.php");
           <div class="row">
             <div class="col-12">
               <div class="btn-back position-relative">
-                <a href="#" class="position-absolute btn-back-pos overflow-hidden">
+                <a href="add-coupon.php" class="position-absolute btn-back-pos overflow-hidden">
                   <div class="combo">
                     <!-- if (back) -->
                     <!-- <i class="fa-solid fa-circle-left"></i> -->
@@ -40,90 +40,10 @@ include("layout/head.php");
           </div>
           <!-- add or back button end -->
 
-
-          <!-- shorcut search section -->
-          <div class="row">
-            <div class="col-lg-2">
-              <a href="#" class="search-div">
-                <div class="template-div d-flex align-items-center">
-                  <div class="status-pending">
-                    <h3>Pending</h3>
-                    <h4>1451</h4>
-                  </div>
-                  <div class="icon ms-auto">
-                    <img class="img-fluid" src="./images/pending.png" alt="">
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-2">
-              <a href="#" class="search-div">
-                <div class="template-div d-flex align-items-center">
-                  <div class="status-approve">
-                    <h3>Approved</h3>
-                    <h4>1451</h4>
-                  </div>
-                  <div class="icon ms-auto">
-                    <img class="img-fluid" src="./images/success.png" alt="">
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-2">
-              <a href="#" class="search-div">
-                <div class="template-div d-flex align-items-center">
-                  <div class="status-process">
-                    <h3>Processing</h3>
-                    <h4>1451</h4>
-                  </div>
-                  <div class="icon ms-auto">
-                    <img class="img-fluid" src="./images/process.png" alt="">
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-2">
-              <a href="#" class="search-div">
-                <div class="template-div d-flex align-items-center">
-                  <div class="status-ship">
-                    <h3>Shipped</h3>
-                    <h4>1451</h4>
-                  </div>
-                  <div class="icon ms-auto">
-                    <img class="img-fluid" src="./images/shipped.png" alt="">
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-2">
-              <a href="#" class="search-div">
-                <div class="template-div d-flex align-items-center">
-                  <div class="status-deliver">
-                    <h3>Delivered</h3>
-                    <h4>1451</h4>
-                  </div>
-                  <div class="icon ms-auto">
-                    <img class="img-fluid" src="./images/delivered.png" alt="">
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-lg-2">
-              <a href="#" class="search-div">
-                <div class="template-div d-flex align-items-center">
-                  <div class="status-cancel">
-                    <h3>Canceled</h3>
-                    <h4>1451</h4>
-                  </div>
-                  <div class="icon ms-auto">
-                    <img class="img-fluid" src="./images/cancel.png" alt="">
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-
-          <!-- shorcut search section -->
+          <!-- alert section start -->
+          <!-- <?php
+            include("layout/alert-box.php")
+          ?> -->
 
           <!-- search header -->
           <div class="search-section">
@@ -131,73 +51,24 @@ include("layout/head.php");
               <div class="col-sm-7 col-lg-9 col-xxl-10">
                 <form action="">
                   <div class="row">
-                    <div class="col-lg-3">
-                      <div class="form-element">
-                        <label for="" class="d-block w-100">
-                          Search by Phone
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
-                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                        </label>
-                        <input class="" type="text" placeholder="phone no">
-                      </div>
-                    </div>
-                    <div class="col-lg-3">
-                      <div class="form-element">
-                        <label for="" class="d-block w-100">
-                          From Date
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
-                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                        </label>
-                        <input class="" type="date">
-                      </div>
-                    </div>
-                    <div class="col-lg-3">
-                      <div class="form-element">
-                        <label for="" class="d-block w-100">
-                          To Date
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
-                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                        </label>
-                        <input class="" type="date">
-                      </div>
-                    </div>
 
                     <div class="col-md-6 col-lg-4 col-xl-3">
                       <div class="form-element">
-                        <label for="" class="d-block w-100">Search by Status
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
-                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                        </label>
+                        <label for="">Select</label>
                         <select class="form-select shadow-none" aria-label="Default select example">
-                          <option selected>select one</option>
-                          <option value="1">pending</option>
-                          <option value="2">approved</option>
-                          <option value="3">cancel</option>
-                          <option value="3">processing</option>
-                          <option value="3">delevered</option>
-                          <option value="3">shipped</option>
+                          <option selected>Select One</option>
+                          <option value="1">Name</option>
+                          <option value="2">p_no</option>
+                          <option value="3">Email</option>
+                          <option value="3">Mobile</option>
                         </select>
                       </div>
                     </div>
+                   
+
                     <div class="col-md-6 col-lg-4 col-xl-3">
                       <div class="form-element">
-                        <label for="" class="d-block w-100">Search by Payment
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
-                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                        </label>
-                        <select class="form-select shadow-none" aria-label="Default select example">
-                          <option selected>select one</option>
-                          <option value="1">paid</option>
-                          <option value="2">unpaid</option>
-                        </select>
-                      </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
-                      <div class="form-element">
-                        <label for="" class="d-block w-100">Type Text
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
-                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                        </label>
+                        <label for="">Type Text</label>
                         <input type="text" placeholder="Type here...">
                       </div>
                     </div>
@@ -223,61 +94,70 @@ include("layout/head.php");
                 <thead>
                   <tr>
                     <th style="min-width:30px">#</th>
+                    
                     <th style="min-width:130px">
-                      <span class="table-title">Name
+                      <span class="table-title">Product Name
                         <i class="bi bi-caret-up-fill sort-up"></i>
                         <i class="bi bi-caret-down-fill sort-down"></i>
                       </span>
                     </th>
                     <th style="min-width:100px">
                       <span class="table-title">
-                        Order No
+                        Category
                         <i class="bi bi-caret-up-fill sort-up"></i>
                         <i class="bi bi-caret-down-fill sort-down"></i>
                       </span>
                     </th>
                     <th style="min-width:100px">
                       <span class="table-title">
-                        Order date
+                        Title
                         <i class="bi bi-caret-up-fill sort-up"></i>
                         <i class="bi bi-caret-down-fill sort-down"></i>
                       </span>
                     </th>
                     <th style="min-width:100px">
                       <span class="table-title">
-                        Paid
+                        Code
                         <i class="bi bi-caret-up-fill sort-up"></i>
                         <i class="bi bi-caret-down-fill sort-down"></i>
                       </span>
                     </th>
                     <th style="min-width:100px">
                       <span class="table-title">
-                        Payment Method
+                        Percentage
                         <i class="bi bi-caret-up-fill sort-up"></i>
                         <i class="bi bi-caret-down-fill sort-down"></i>
                       </span>
                     </th>
                     <th style="min-width:100px">
                       <span class="table-title">
-                        Items
+                        Amount
                         <i class="bi bi-caret-up-fill sort-up"></i>
                         <i class="bi bi-caret-down-fill sort-down"></i>
                       </span>
                     </th>
                     <th style="min-width:100px">
                       <span class="table-title">
-                        Delivary Charge
+                        Start Date
                         <i class="bi bi-caret-up-fill sort-up"></i>
                         <i class="bi bi-caret-down-fill sort-down"></i>
                       </span>
                     </th>
                     <th style="min-width:100px">
                       <span class="table-title">
-                        Total Price
+                        End Date
                         <i class="bi bi-caret-up-fill sort-up"></i>
                         <i class="bi bi-caret-down-fill sort-down"></i>
                       </span>
                     </th>
+                    <th style="min-width:100px">
+                      <span class="table-title">
+                       Use Limit
+                        <i class="bi bi-caret-up-fill sort-up"></i>
+                        <i class="bi bi-caret-down-fill sort-down"></i>
+                      </span>
+                    </th>
+                    
                     <th style="min-width:100px">
                       <span class="table-title">
                         Status
@@ -291,14 +171,15 @@ include("layout/head.php");
                 <tbody style="border-top: 0">
                   <tr>
                     <td><span>1</span></td>
-                    <td><span>G M SARWAR SHOOMON</span></td>
-                    <td><span>56</span></td>
+                    <td><span>Sample Product</span></td>
+                    <td><span>Fashon</span></td>
+                    <td><span>10%OFF</span></td>
+                    <td><span>02DCG5</span></td>
+                    <td><span>10%</span></td>
+                    <td><span>1000</span></td>
                     <td><span>5 Jul 2023</span></td>
-                    <td class="status status-success"><span>Yes</span></td>
-                    <td><span>biKash</span></td>
+                    <td><span>5 Nov 2023</span></td>
                     <td><span>5</span></td>
-                    <td><span>70 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
-                    <td><span>1000 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
                     <td class="status status-pending"><span>Pending</span></td>
                     <td><span>
                         <a href="product-view.html">
@@ -309,43 +190,19 @@ include("layout/head.php");
                           class="delete edit"><i class="fas fa-pencil-alt"></i></span>
                         <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
                           class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                          class="delete locate"><i class="fa-solid fa-location-dot"></i></span>
                     </td>
                   </tr>
                   <tr>
-                    <td><span>1</span></td>
-                    <td><span>G M SARWAR SHOOMON</span></td>
-                    <td><span>56</span></td>
+                  <td><span>1</span></td>
+                    <td><span>Sample Product</span></td>
+                    <td><span>Fashon</span></td>
+                    <td><span>10%OFF</span></td>
+                    <td><span>02DCG5</span></td>
+                    <td><span>10%</span></td>
+                    <td><span>1000</span></td>
                     <td><span>5 Jul 2023</span></td>
-                    <td class="status status-danger"><span>No</span></td>
-                    <td><span>biKash</span></td>
+                    <td><span>5 Nov 2023</span></td>
                     <td><span>5</span></td>
-                    <td><span>70 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
-                    <td><span>1000 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
-                    <td class="status status-success"><span>Success</span></td>
-                    <td><span>
-                        <a href="product-view.html">
-                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                            class="delete view"><i class="fa-solid fa-eye"></i></span>
-                        </a>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                          class="delete edit"><i class="fas fa-pencil-alt"></i></span>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                          class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                          class="delete locate"><i class="fa-solid fa-location-dot"></i></span>
-                  </tr>
-                  <tr>
-                    <td><span>1</span></td>
-                    <td><span>G M SARWAR SHOOMON</span></td>
-                    <td><span>56</span></td>
-                    <td><span>5 Jul 2023</span></td>
-                    <td class="status status-processing"><span>Partial</span></td>
-                    <td><span>biKash</span></td>
-                    <td><span>5</span></td>
-                    <td><span>70 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
-                    <td><span>1000 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
                     <td class="status status-approve"><span>Approve</span></td>
                     <td><span>
                         <a href="product-view.html">
@@ -356,20 +213,19 @@ include("layout/head.php");
                           class="delete edit"><i class="fas fa-pencil-alt"></i></span>
                         <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
                           class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                          class="delete locate"><i class="fa-solid fa-location-dot"></i></span>
                     </td>
                   </tr>
                   <tr>
                     <td><span>1</span></td>
-                    <td><span>G M SARWAR SHOOMON</span></td>
-                    <td><span>56</span></td>
+                    <td><span>Sample Product</span></td>
+                    <td><span>Fashon</span></td>
+                    <td><span>10%OFF</span></td>
+                    <td><span>02DCG5</span></td>
+                    <td><span>10%</span></td>
+                    <td><span>1000</span></td>
                     <td><span>5 Jul 2023</span></td>
-                    <td class="status status-success"><span>Yes</span></td>
-                    <td><span>biKash</span></td>
+                    <td><span>5 Nov 2023</span></td>
                     <td><span>5</span></td>
-                    <td><span>70 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
-                    <td><span>1000 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
                     <td class="status status-processing"><span>Processing</span></td>
                     <td><span>
                         <a href="product-view.html">
@@ -380,20 +236,42 @@ include("layout/head.php");
                           class="delete edit"><i class="fas fa-pencil-alt"></i></span>
                         <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
                           class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                          class="delete locate"><i class="fa-solid fa-location-dot"></i></span>
                     </td>
                   </tr>
                   <tr>
-                    <td><span>1</span></td>
-                    <td><span>G M SARWAR SHOOMON</span></td>
-                    <td><span>56</span></td>
+                  <td><span>1</span></td>
+                    <td><span>Sample Product</span></td>
+                    <td><span>Fashon</span></td>
+                    <td><span>10%OFF</span></td>
+                    <td><span>02DCG5</span></td>
+                    <td><span>10%</span></td>
+                    <td><span>1000</span></td>
                     <td><span>5 Jul 2023</span></td>
-                    <td class="status status-processing"><span>Partial</span></td>
-                    <td><span>biKash</span></td>
+                    <td><span>5 Nov 2023</span></td>
                     <td><span>5</span></td>
-                    <td><span>70 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
-                    <td><span>1000 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
+                    <td class="status status-shipped"><span>Shipped</span></td>
+                    <td><span>
+                        <a href="product-view.html">
+                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                            class="delete view"><i class="fa-solid fa-eye"></i></span>
+                        </a>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
+                          class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                    </td>
+                  </tr>
+                  <tr>
+                  <td><span>1</span></td>
+                    <td><span>Sample Product</span></td>
+                    <td><span>Fashon</span></td>
+                    <td><span>10%OFF</span></td>
+                    <td><span>02DCG5</span></td>
+                    <td><span>10%</span></td>
+                    <td><span>1000</span></td>
+                    <td><span>5 Jul 2023</span></td>
+                    <td><span>5 Nov 2023</span></td>
+                    <td><span>5</span></td>
                     <td class="status status-delivered"><span>Delivered</span></td>
                     <td><span>
                         <a href="product-view.html">
@@ -404,20 +282,19 @@ include("layout/head.php");
                           class="delete edit"><i class="fas fa-pencil-alt"></i></span>
                         <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
                           class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                          class="delete locate"><i class="fa-solid fa-location-dot"></i></span>
                     </td>
                   </tr>
                   <tr>
-                    <td><span>1</span></td>
-                    <td><span>G M SARWAR SHOOMON</span></td>
-                    <td><span>56</span></td>
+                  <td><span>1</span></td>
+                    <td><span>Sample Product</span></td>
+                    <td><span>Fashon</span></td>
+                    <td><span>10%OFF</span></td>
+                    <td><span>02DCG5</span></td>
+                    <td><span>10%</span></td>
+                    <td><span>1000</span></td>
                     <td><span>5 Jul 2023</span></td>
-                    <td class="status status-danger"><span>No</span></td>
-                    <td><span>biKash</span></td>
+                    <td><span>5 Nov 2023</span></td>
                     <td><span>5</span></td>
-                    <td><span>70 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
-                    <td><span>1000 <i class="fa-solid fa-bangladeshi-taka-sign"></i></span></td>
                     <td class="status status-danger"><span>Canceled</span></td>
                     <td><span>
                         <a href="product-view.html">
@@ -428,8 +305,6 @@ include("layout/head.php");
                           class="delete edit"><i class="fas fa-pencil-alt"></i></span>
                         <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
                           class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                          class="delete locate"><i class="fa-solid fa-location-dot"></i></span>
                     </td>
                   </tr>
                 </tbody>
@@ -440,7 +315,6 @@ include("layout/head.php");
           <?php
           include("layout/list-footer.php")
           ?>
-
         </div>
       </div>
       <!-- content part end -->

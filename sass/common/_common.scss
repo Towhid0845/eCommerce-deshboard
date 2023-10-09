@@ -115,20 +115,20 @@ body {
 
       // common status color design
 
-      .status span {
-        padding: 5px 10px;
-        text-transform: capitalize;
-        display: inline-block;
-        border-radius: 5px;
-        font-size: 12px;
-        font-weight: 400;
-      }
+.status span {
+  padding: 5px 10px;
+  text-transform: capitalize;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
 
-      .status.status-pending span {
-        background-color: rgba(0, 0, 0, 0.15);
-        color: #303030;
+.status.status-pending span {
+  background-color: rgba(0, 0, 0, 0.15);
+  color: #303030;
 
-      }
+}
 .status.status-success span {
   background-color: rgba(47, 135, 51, 0.15);
   color: #2f8733;
@@ -142,6 +142,10 @@ body {
 .status.status-processing span {
   background-color: rgba(255, 221, 0, .15);
   color: #909308;
+}
+.status.status-shipped span {
+  background-color: rgba(47, 135, 51, 0.15);
+  color: #2f8733;
 }
 .status.status-delivered span {
   background-color: rgba(68, 0, 255, 0.15);
