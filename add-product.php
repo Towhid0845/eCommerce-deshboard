@@ -64,16 +64,6 @@ include("layout/head.php");
                         </select>
                       </div>
                     </div>
-                    <div class="col-lg-3">
-                      <div class="form-element">
-                        <label for="">Select Product</label>
-                        <select class="form-select shadow-none" aria-label="Default select example">
-                          <option selected="">Product1</option>
-                          <option value="1">Product2</option>
-                          <option value="2">Product3</option>
-                        </select>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -221,16 +211,7 @@ include("layout/head.php");
                         <input class="" type="text" placeholder="dealer price">
                       </div>
                     </div>
-                    <div class="col-lg-3">
-                      <div class="form-element">
-                        <label for="" class="d-block w-100">
-                          Price
-                          <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
-                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                        </label>
-                        <input class="" type="text" placeholder="price">
-                      </div>
-                    </div>
+                    
                     <div class="col-lg-3">
                       <div class="form-element">
                         <label for="" class="d-block w-100">
@@ -241,96 +222,92 @@ include("layout/head.php");
                         <input class="" type="text" placeholder="discount price">
                       </div>
                     </div>
-                    <div class="col-lg-3 mb-3">
-                      <label class="form-label">Status</label>
-                      <div class="d-flex justify-content-start">
-                        <div class="form-check me-3">
-                          <input class="form-check-input shadow-none" type="radio" id="radio0" name="status"
-                            value="active"><label class="form-check-label" for="radio0">Active</label>
-                        </div>
-                        <div class="form-check"><input class="form-check-input shadow-none" type="radio" id="radio1"
-                            name="status" value="deactive"><label class="form-check-label" for="radio1">Deactive</label>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="product-block border-block">
+                <h4 class="label-text">Product Image</h4>
+                <div class="form-details">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="form-element d-flex flex-wrap">
+                          <label for="" class="d-block w-100">
+                            Image One <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                              data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          </label>
+                          <div class="image-box position-relative">
+                            <img src="images/prf.png" alt="prf">
+                            <div class="overlay position-absolute top-0 start-0 w-100 h-100">
+                              <i class="bi bi-x position-absolute close"></i>
+                            </div>
+                          </div>
+                          <div class="upload-box">
+                            <input class="d-none" type="file" id="file">
+                            <label for="file"><i class="bi bi-cloud-arrow-up-fill"></i> Upload image</label>
+                          </div>
                         </div>
                       </div>
+                    <div class="col-lg-1 d-flex align-items-center justify-content-end pt-2">
+                      <button class="cmn__btn"><i class="bi bi-plus fs-6"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-details">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="form-element d-flex flex-wrap">
+                          <label for="" class="d-block w-100">
+                            Image One <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
+                              data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                          </label>
+                          <div class="image-box position-relative">
+                            <img src="images/prf.png" alt="prf">
+                            <div class="overlay position-absolute top-0 start-0 w-100 h-100">
+                              <i class="bi bi-x position-absolute close"></i>
+                            </div>
+                          </div>
+                          <div class="upload-box">
+                            <input class="d-none" type="file" id="file">
+                            <label for="file"><i class="bi bi-cloud-arrow-up-fill"></i> Upload image</label>
+                          </div>
+                        </div>
+                      </div>
+                    <div class="col-lg-1 d-flex align-items-center justify-content-end pt-2">
+                      <button class="cmn__btn"><i class="bi bi-plus fs-6"></i></button>
+                      <button type="button" class="cmn-delete cmn__btn ms-2"><i class="bi bi-trash3"></i></button>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="product-block border-block">
-                <h4 class="label-text">Product Price</h4>
-                <div class="form-details">
-                  <div class="row">
-                    <div class="col-lg-3">
-                      <div class="form-element d-flex flex-wrap">
-                        <label for="" class="d-block w-100">
-                          Image One <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
-                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                        </label>
-                        <div class="image-box position-relative">
-                          <img src="images/prf.png" alt="prf">
-                          <div class="overlay position-absolute top-0 start-0 w-100 h-100">
-                            <i class="bi bi-x position-absolute close"></i>
-                          </div>
-                        </div>
-                        <div class="upload-box">
-                          <input class="d-none" type="file" id="file">
-                          <label for="file"><i class="bi bi-cloud-arrow-up-fill"></i> Upload image</label>
-                        </div>
+                <div class="row">
+                  <div class="col-lg-3 mb-3">
+                    <label class="form-label">Status</label>
+                    <div class="d-flex justify-content-start">
+                      <div class="form-check me-3">
+                        <input class="form-check-input shadow-none" type="radio" id="radio0" name="status"
+                          value="active"><label class="form-check-label" for="radio0">Active</label>
+                      </div>
+                      <div class="form-check"><input class="form-check-input shadow-none" type="radio" id="radio1"
+                          name="status" value="deactive"><label class="form-check-label" for="radio1">Deactive</label>
                       </div>
                     </div>
-                    <div class="col-lg-3">
-                      <div class="form-element d-flex flex-wrap">
-                        <label for="" class="d-block w-100">
-                          Image Two <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
-                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                        </label>
-                        <div class="image-box position-relative">
-                          <img src="images/prf.png" alt="prf">
-                          <div class="overlay position-absolute top-0 start-0 w-100 h-100">
-                            <i class="bi bi-x position-absolute close"></i>
-                          </div>
-                        </div>
-                        <div class="upload-box">
-                          <input class="d-none" type="file" id="file">
-                          <label for="file"><i class="bi bi-cloud-arrow-up-fill"></i> Upload image</label>
-                        </div>
-                      </div>
+                  </div>
+                  <div class="col-lg-3 ">
+                    <label class="form-label">Exchangeable</label>
+                    <div class="d-flex justify-content-start">
+                      <label class="switch">
+                          <input type="checkbox"><span class="switch-state"></span>
+                      </label>
                     </div>
-                    <div class="col-lg-3">
-                      <div class="form-element d-flex flex-wrap">
-                        <label for="" class="d-block w-100">
-                          Image Three <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
-                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                        </label>
-                        <div class="image-box position-relative">
-                          <img src="images/prf.png" alt="prf">
-                          <div class="overlay position-absolute top-0 start-0 w-100 h-100">
-                            <i class="bi bi-x position-absolute close"></i>
-                          </div>
-                        </div>
-                        <div class="upload-box">
-                          <input class="d-none" type="file" id="file">
-                          <label for="file"><i class="bi bi-cloud-arrow-up-fill"></i> Upload image</label>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3">
-                      <div class="form-element d-flex flex-wrap">
-                        <label for="" class="d-block w-100">
-                          Image Four <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left"
-                            data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                        </label>
-                        <div class="image-box position-relative">
-                          <img src="images/prf.png" alt="prf">
-                          <div class="overlay position-absolute top-0 start-0 w-100 h-100">
-                            <i class="bi bi-x position-absolute close"></i>
-                          </div>
-                        </div>
-                        <div class="upload-box">
-                          <input class="d-none" type="file" id="file">
-                          <label for="file"><i class="bi bi-cloud-arrow-up-fill"></i> Upload image</label>
-                        </div>
-                      </div>
+                  </div>
+                  <div class="col-lg-3 ">
+                    <label class="form-label">Refundable</label>
+                    <div class="d-flex justify-content-start">
+                      <label class="switch">
+                          <input type="checkbox" checked><span class="switch-state"></span>
+                      </label>
                     </div>
                   </div>
                 </div>

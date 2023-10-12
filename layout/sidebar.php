@@ -43,6 +43,19 @@
         </li>
         <li>
           <div class="link">
+            <span class="icon"><i class="bi bi-bag-check"></i></span>
+            <span class="title">
+              Item
+              <span class="arrow float-end"><i class="fa fa-chevron-right"></i></span>
+            </span>
+          </div>
+          <ul class="submenu title">
+            <li><a href="item.php"><i class="fas fa-angle-right"></i> Item List</a></li>
+            <li><a href="create-item.php"><i class="fas fa-angle-right"></i>Add New Item</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="link">
             <a href="order.php" class="ps-0 pe-0">
               <span class="icon"><i class="bi bi-cart-check"></i></span>
               <span class="title">

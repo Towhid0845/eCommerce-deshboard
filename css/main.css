@@ -74,7 +74,7 @@ body {
 .form-element textarea,
 .form-element select,
 .form-element .upload-box label {
-  height: 35px;
+  height: 100px;
   border: 1px solid #ced4da;
   padding: 0 16px;
   font-size: 15px;
@@ -156,6 +156,24 @@ body {
       padding-bottom: 5px; }
     .alert-box .alert-list li {
       padding-left: 20px; }
+
+.border-block {
+  background-color: #fff;
+  border: 2px solid #82888d;
+  padding: 30px 20px;
+  margin-bottom: 30px; }
+  .border-block .label-text {
+    margin-bottom: 24px; }
+
+.submit-btn {
+  background-color: #019289;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 3px;
+  color: #fff; }
 
 .top-header {
   background-color: #fff;
@@ -628,7 +646,7 @@ body {
       font-family: 'Josefin Sans', sans-serif;
       color: #dcdcdc; }
       .navigation-body .branding h6 a {
-        color: #fe8a7d !important; }
+        color: red !important; }
 
 .accordion .link {
   cursor: pointer;
@@ -1102,7 +1120,6 @@ body {
     margin: 0 auto; }
 
 .inner-content {
-  background-color: #fff;
   padding: 30px;
   margin: 0 0 30px;
   position: relative; }
@@ -1114,7 +1131,7 @@ body {
   margin-bottom: 5px; }
   .form-element label i {
     cursor: pointer;
-    color: #777EDD; }
+    color: #019289; }
   .form-element label .floating-tooltip {
     width: 170px;
     padding: 4px 8px;
@@ -1146,17 +1163,17 @@ body {
   padding: 5px; }
 
 .form-element .image-box {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%; }
+  width: 50%;
+  height: 200px;
+  border-radius: 20px; }
   .form-element .image-box img {
-    border-radius: 50%;
+    border-radius: 20px;
     height: 100%;
     object-fit: cover;
     object-position: center; }
   .form-element .image-box .overlay {
     background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
+    border-radius: 20px;
     transition: all linear .2s;
     opacity: 0; }
     .form-element .image-box .overlay .close {
@@ -1170,7 +1187,6 @@ body {
   .form-element .image-box:hover .overlay {
     opacity: 1; }
 .form-element .upload-box {
-  margin-left: 24px;
   flex-grow: 1; }
   .form-element .upload-box label {
     width: 100%;
@@ -1222,8 +1238,65 @@ body {
 .form-check .form-check-label {
   color: #404E67; }
 
+.cmn__btn {
+  height: 35px;
+  border: 0;
+  border-radius: 3px;
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  background-color: #019289;
+  color: #fff; }
+  .cmn__btn .bi-plus {
+    font-size: 25px !important; }
+
+.cmn-delete {
+  background-color: #F1556C; }
+  .cmn-delete i {
+    font-size: 18px; }
+
+.form-check-input:checked {
+  background-color: #019289;
+  border-color: #019289; }
+
+div[aria-hidden="true"] {
+  color: red; }
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px; }
+  .switch input {
+    display: none; }
+    .switch input:checked + .switch-state {
+      background-color: #019289; }
+      .switch input:checked + .switch-state::before {
+        transform: translateX(26px); }
+  .switch .switch-state {
+    border-radius: 20px;
+    position: absolute;
+    cursor: pointer;
+    background-color: #b1b1b1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .4s; }
+    .switch .switch-state:before {
+      content: "";
+      position: absolute;
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: #fff;
+      transition: .4s;
+      border-radius: 20px; }
+
 .form-element {
-  margin-bottom: 10px; }
+  margin-bottom: 20px; }
   .form-element select {
     padding-right: 40px; }
     .form-element select:focus {
@@ -1247,7 +1320,7 @@ body {
   color: #fff !important;
   border-radius: 3px;
   font-size: 20px;
-  margin-bottom: 10px; }
+  margin-bottom: 20px; }
   .search-btn:hover {
     color: white;
     -webkit-transition: all 0.5s;
@@ -2068,22 +2141,6 @@ body {
     width: 300px !important; }
 .all-navy-dashboard-info .last-10-genform {
   height: 400px; }
-
-.cmn__btn {
-  height: 40px;
-  border: 0;
-  border-radius: 3px;
-  width: 38px;
-  text-align: center;
-  line-height: 40px;
-  font-size: 20px;
-  background-color: #00BCD4;
-  color: #fff; }
-  .cmn__btn .bi-plus {
-    font-size: 22px !important; }
-
-.cmn__btn.delete {
-  background-color: #F1556C; }
 
 .add-product-form .border-block {
   border: 1px solid #82888d;

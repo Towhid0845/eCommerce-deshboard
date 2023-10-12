@@ -25,7 +25,7 @@ include("layout/head.php");
           <div class="row">
             <div class="col-12">
               <div class="btn-back position-relative">
-                <a href="#" class="position-absolute btn-back-pos overflow-hidden">
+                <a href="add-product.php" class="position-absolute btn-back-pos overflow-hidden">
                   <div class="combo">
                     <!-- if (back) -->
                     <!-- <i class="fa-solid fa-circle-left"></i> -->

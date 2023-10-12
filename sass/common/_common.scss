@@ -94,7 +94,7 @@ body {
   textarea,
   select,
   .upload-box label {
-    height: 35px;
+    height: 100px;
     border: 1px solid $commonBorderColor;
     padding: 0 16px;
     font-size: 15px;
@@ -200,4 +200,28 @@ margin-bottom: 30px;
   }
 }
 
+}
+// common block-border
+.border-block {
+  // background-color: $lightColor1;
+  background-color: $lightColor;
+  border: 2px solid $commonBorderColor1;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+
+  .label-text {
+    margin-bottom: 24px;
+  }
+}
+
+// submit button
+.submit-btn {
+  background-color: #019289;
+  padding: 10px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
 }

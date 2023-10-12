@@ -2,7 +2,7 @@
 @import "../variable/textcolor";
 
 .inner-content {
-  background-color: $lightColor;
+  // background-color: $lightColor;
   padding: 30px;
   margin: 0 0 30px;
   position: relative;
@@ -17,7 +17,7 @@
 
     i {
       cursor: pointer;
-      color: $themeColorFive;
+      color: $sidebarBgColor;
     }
 
     .floating-tooltip {
@@ -69,12 +69,12 @@
 
 .form-element {
   .image-box {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    width: 50%;
+      height: 200px;
+      border-radius: 20px;
 
     img {
-      border-radius: 50%;
+      border-radius: 20px;
       height: 100%;
       object-fit: cover;
       object-position: center;
@@ -82,7 +82,7 @@
 
     .overlay {
       background-color: rgba(0, 0, 0, 0.6);
-      border-radius: 50%;
+      border-radius: 20px;
       transition: all linear .2s;
       opacity: 0;
 
@@ -105,7 +105,7 @@
   }
 
   .upload-box {
-    margin-left: 24px;
+    // margin-left: 24px;
     flex-grow: 1;
 
     label {
@@ -174,5 +174,83 @@
 .form-check {
   .form-check-label {
     color: #404E67;
+  }
+}
+.cmn__btn {
+  height: 35px;
+  border: 0;
+  border-radius: 3px;
+  width: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  background-color: $sidebarBgColor;
+  color: #fff;
+
+  .bi-plus {
+    font-size: 25px !important;
+  }
+}
+
+.cmn-delete {
+  background-color: #F1556C;
+
+  i {
+    font-size: 18px;
+  }
+}
+
+// radio button
+.form-check-input:checked {
+  background-color: $sidebarBgColor;
+  border-color: $sidebarBgColor;
+}
+
+div[aria-hidden="true"] {
+  color: red;
+}
+
+
+// switch button
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+
+  input {
+    display: none;
+
+    &:checked+.switch-state {
+      background-color: $sidebarBgColor;
+
+      &::before {
+        transform: translateX(26px);
+      }
+    }
+  }
+
+  .switch-state {
+    border-radius: 20px;
+    position: absolute;
+    cursor: pointer;
+    background-color: #b1b1b1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .4s;
+
+    &:before {
+      content: "";
+      position: absolute;
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: #fff;
+      transition: .4s;
+      border-radius: 20px;
+    }
   }
 }
