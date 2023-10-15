@@ -1073,8 +1073,6 @@ include("layout/head.php");
   <script src="js/jquery.counterup.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/apexcharts v3.43.0.js"></script>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script> -->
-  <!-- <script src="js/stock-prices.js"></script> -->
   <script src="js/script.js"></script>
   <!-- script file  end-->
 </body>

@@ -50,7 +50,7 @@
             </span>
           </div>
           <ul class="submenu title">
-            <li><a href="item.php"><i class="fas fa-angle-right"></i> Item List</a></li>
+            <li><a href="item-list.php"><i class="fas fa-angle-right"></i> Item List</a></li>
             <li><a href="create-item.php"><i class="fas fa-angle-right"></i>Add New Item</a></li>
           </ul>
         </li>

@@ -43,7 +43,7 @@ body {
 
 .btn-back .btn-back-pos {
   top: -30px;
-  right: -30px;
+  right: 0;
   width: 30px;
   border-radius: 20px 0 0 20px;
   transition: .6s;
@@ -74,7 +74,7 @@ body {
 .form-element textarea,
 .form-element select,
 .form-element .upload-box label {
-  height: 100px;
+  height: 35px;
   border: 1px solid #ced4da;
   padding: 0 16px;
   font-size: 15px;
@@ -99,6 +99,14 @@ body {
   border-radius: 5px;
   font-size: 12px;
   font-weight: 400; }
+
+.status.status-active span {
+  background-color: rgba(42, 255, 0, 0.7);
+  color: #000000; }
+
+.status.status-deactive span {
+  background-color: rgba(0, 0, 0, 0.15);
+  color: #000000; }
 
 .status.status-pending span {
   background-color: rgba(0, 0, 0, 0.15);
@@ -159,9 +167,9 @@ body {
 
 .border-block {
   background-color: #fff;
-  border: 2px solid #82888d;
   padding: 30px 20px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  box-shadow: 0 1px 3px #00000026; }
   .border-block .label-text {
     margin-bottom: 24px; }
 
@@ -1120,7 +1128,6 @@ body {
     margin: 0 auto; }
 
 .inner-content {
-  padding: 30px;
   margin: 0 0 30px;
   position: relative; }
 
@@ -1162,47 +1169,32 @@ body {
 .form-element .file-input {
   padding: 5px; }
 
-.form-element .image-box {
-  width: 50%;
-  height: 200px;
-  border-radius: 20px; }
-  .form-element .image-box img {
-    border-radius: 20px;
-    height: 100%;
-    object-fit: cover;
-    object-position: center; }
-  .form-element .image-box .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 20px;
-    transition: all linear .2s;
-    opacity: 0; }
-    .form-element .image-box .overlay .close {
-      color: #fff;
-      font-size: 24px;
-      cursor: pointer;
-      width: 40px;
-      height: 40px;
-      text-align: center;
-      line-height: 40px; }
-  .form-element .image-box:hover .overlay {
-    opacity: 1; }
-.form-element .upload-box {
-  flex-grow: 1; }
-  .form-element .upload-box label {
+.media-block {
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 5px; }
+  .media-block .image {
     width: 100%;
-    color: #53627d;
-    text-align: center;
-    border-radius: 5px;
-    line-height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    background-color: #fff; }
-    .form-element .upload-box label i {
-      font-size: 24px;
-      line-height: 1;
-      margin-right: 10px; }
+    height: 150px; }
+    .media-block .image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50px; }
+    .media-block .image .upload-box {
+      position: absolute;
+      bottom: -6px;
+      right: -6px; }
+      .media-block .image .upload-box i {
+        width: 35px;
+        height: 35px;
+        background-color: #00AFF0;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 35px;
+        color: #FFFFFF;
+        cursor: pointer;
+        font-size: 14px; }
 
 .file-upload {
   width: 160px;
@@ -1301,6 +1293,10 @@ div[aria-hidden="true"] {
     padding-right: 40px; }
     .form-element select:focus {
       border-color: #00BCD4; }
+
+.feature-block .form-element,
+.video-block .form-element {
+  margin-bottom: 0 !important; }
 
 .search-btn {
   font-weight: 600;
@@ -1522,13 +1518,13 @@ div[aria-hidden="true"] {
 
 .table-list-body {
   overflow-y: scroll;
-  height: 573px;
   scrollbar-width: thin;
   scrollbar-color: #01B3B7 transparent; }
   .table-list-body::-webkit-scrollbar {
     width: 8px; }
   .table-list-body::-webkit-scrollbar-thumb {
-    background-color: #01B3B7; }
+    background-color: #01B3B7;
+    border-radius: 10px; }
 
 .list-footer {
   padding: 40px 0;
@@ -1664,28 +1660,6 @@ div[aria-hidden="true"] {
   background-color: #777EDD;
   border: none; }
 
-.view-page .left-info {
-  background-color: #fff;
-  box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  padding: 30px 20px; }
-.view-page .image {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin: 0 auto; }
-  .view-page .image img {
-    height: 100%;
-    object-fit: cover;
-    object-position: center; }
-.view-page .file {
-  margin-top: 30px;
-  text-align: center; }
-  .view-page .file a {
-    color: #00BCD4;
-    font-size: 18px;
-    font-weight: 500; }
-
 .view-profile .profile-image {
   width: 100%;
   padding: 30px;
@@ -1793,6 +1767,73 @@ div[aria-hidden="true"] {
     right: 15px;
     font-size: 18px;
     cursor: pointer; }
+
+.view-page .left-info {
+  background-color: #fff;
+  box-shadow: 0 0px 16px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px 20px; }
+.view-page .image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto; }
+  .view-page .image img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center; }
+.view-page .file {
+  margin-top: 30px;
+  text-align: center; }
+  .view-page .file a {
+    color: #00BCD4;
+    font-size: 18px;
+    font-weight: 500; }
+
+.item-about .image {
+  width: 100%;
+  height: 300px; }
+  .item-about .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+
+.border-block.item-view {
+  background-color: rgba(241, 241, 255, 0.5);
+  border: 1px solid; }
+  .border-block.item-view .info {
+    position: relative; }
+    .border-block.item-view .info .label-text {
+      position: absolute;
+      top: -50px;
+      left: 14px;
+      font-size: 18px;
+      color: #000;
+      border: 1px solid #ffce43e8;
+      background-color: #fff;
+      padding: 7px 15px;
+      font-weight: 500; }
+    .border-block.item-view .info table {
+      padding-top: 20px;
+      width: 100%; }
+      .border-block.item-view .info table tbody tr td:first-child {
+        width: 40%; }
+      .border-block.item-view .info table tbody tr td:nth-child(odd) {
+        padding: 5px 20px;
+        font-size: 16px;
+        font-weight: 500; }
+      .border-block.item-view .info table tbody tr td:nth-child(even) {
+        padding: 5px 20px;
+        text-align: center;
+        width: 8%; }
+  .border-block.item-view .image {
+    height: 300px;
+    width: 100%; }
+    .border-block.item-view .image img {
+      border-radius: 5px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
 
 .employee-profile-page .view-profile .contact-info {
   padding: 0; }

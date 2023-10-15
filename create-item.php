@@ -2,7 +2,7 @@
 <html lang="en">
 
 <?php
-  include("layout/head.php");
+include("layout/head.php");
 ?>
 
 <body class="sidebar">
@@ -49,87 +49,13 @@
               <div class="col-lg-8">
                 <div class="border-block">
                   <div class="employee-block">
-                    <h4 class="label-text">Generic Item Information</h4>
+                    <h4 class="label-text">Item Information</h4>
                     <div class="form-details">
                       <div class="row">
-                        <div class="col-lg-3">
-                          <div class="form-element d-flex flex-wrap">
-                            <label for="" class="d-block w-100">
-                              Banner <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                            </label>
-                            <div class="image-box position-relative">
-                              <img src="images/prf.png" alt="prf">
-                              <div class="overlay position-absolute top-0 start-0 w-100 h-100">
-                                <i class="bi bi-x position-absolute close"></i>
-                              </div>
-                            </div>
-                            <div class="upload-box">
-                              <input class="d-none" type="file" id="file">
-                              <label for="file"><i class="bi bi-cloud-arrow-up-fill"></i> Upload image</label>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-3">
-                          <div class="form-element d-flex flex-wrap">
-                            <label for="" class="d-block w-100">
-                              Image One <sup class="text-danger">*</sup> <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                            </label>
-                            <div class="image-box position-relative">
-                              <img src="images/prf.png" alt="prf">
-                              <div class="overlay position-absolute top-0 start-0 w-100 h-100">
-                                <i class="bi bi-x position-absolute close"></i>
-                              </div>
-                            </div>
-                            <div class="upload-box">
-                              <input class="d-none" type="file" id="file">
-                              <label for="file"><i class="bi bi-cloud-arrow-up-fill"></i> Upload image</label>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-3">
-                          <div class="form-element d-flex flex-wrap">
-                            <label for="" class="d-block w-100">
-                              Image Two <sup class="text-danger">*</sup> <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                            </label>
-                            <div class="image-box position-relative">
-                              <img src="images/prf.png" alt="prf">
-                              <div class="overlay position-absolute top-0 start-0 w-100 h-100">
-                                <i class="bi bi-x position-absolute close"></i>
-                              </div>
-                            </div>
-                            <div class="upload-box">
-                              <input class="d-none" type="file" id="file">
-                              <label for="file"><i class="bi bi-cloud-arrow-up-fill"></i> Upload image</label>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-3">
-                          <div class="form-element d-flex flex-wrap">
-                            <label for="" class="d-block w-100">
-                              Image Three <sup class="text-danger">*</sup> <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
-                            </label>
-                            <div class="image-box position-relative">
-                              <img src="images/prf.png" alt="prf">
-                              <div class="overlay position-absolute top-0 start-0 w-100 h-100">
-                                <i class="bi bi-x position-absolute close"></i>
-                              </div>
-                            </div>
-                            <div class="upload-box">
-                              <input class="d-none" type="file" id="file">
-                              <label for="file"><i class="bi bi-cloud-arrow-up-fill"></i> Upload image</label>
-                            </div>
-                          </div>
-                        </div>
-
-
-
-
-
                         <div class="col-lg-3">
                           <div class="form-element">
                             <label for="" class="d-block w-100">
                               Name
-
                               <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                             </label>
                             <input class="" type="text" placeholder="Name">
@@ -139,32 +65,33 @@
                           <div class="form-element">
                             <label for="" class="d-block w-100">
                               Additional Name
-
                               <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                             </label>
                             <input class="" type="text" placeholder="Additional Name">
+                          </div>
+                        </div>
+                        <div class="col-lg-3">
+                          <div class="form-element">
+                            <label for="" class="d-block w-100">Category
+                              <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
+                            </label>
+                            <select class="form-select shadow-none" aria-label="Default select example">
+                              <option selected="">x</option>
+                              <option value="1">y</option>
+                              <option value="2">z</option>
+                            </select>
                           </div>
                         </div>
                         <div class="col-lg-3">
                           <div class="form-element">
                             <label for="" class="d-block w-100">
                               Item code <sup class="text-danger">*</sup>
-
                               <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Please insert your name here"><i class="fa-solid fa-circle-info"></i></span>
                             </label>
                             <input class="" type="text" placeholder="Additional Name">
                           </div>
                         </div>
-                        <div class="col-lg-3">
-                          <div class="form-element">
-                            <label for="">Category</label>
-                            <select class="form-select shadow-none" aria-label="Default select example">
-                              <option selected="">1</option>
-                              <option value="1">2</option>
-                              <option value="2">3</option>
-                            </select>
-                          </div>
-                        </div>
+
                       </div>
                     </div>
                   </div>
@@ -183,11 +110,12 @@
                             </select>
                           </div>
                         </div>
-                        <div class="col-lg-2 ms-auto text-end">
-                          <button class="plus__ cmn__btn"><i class="bi bi-plus fs-6"></i></button>
-                        </div>
+
                       </div>
                     </div>
+                  </div>
+                  <div class="employee-block">
+                    <h4 class="label-text">Unit</h4>
                     <div class="form-details">
                       <div class="row">
                         <div class="col-lg-3">
@@ -200,104 +128,149 @@
                           </div>
                         </div>
                         <div class="col-lg-2 ms-auto text-end">
-                          <button type="button" class="delete cmn__btn"><i class="bi bi-trash3"></i></button>
+                          <button type="button" class="cmn-delete cmn__btn ms-2"><i class="bi bi-trash3"></i></button>
                           <button class="plus__ cmn__btn"><i class="bi bi-plus fs-6"></i></button>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="border-block">
+                <div class="border-block feature-block">
                   <div class="employee-block">
                     <h4 class="label-text">Generic Item Features</h4>
 
-                    <div class="table-responsive">
-                      <table class="table table-striped table-bordered mb-0">
-                        <thead class="table-dark">
-                          <tr>
-                            <th style="width: 90px;">Authority</th>
-                            <th style="width: 110px;">Sequence</th>
-                            <th style="width: 230px;">Feature Name</th>
-                            <th style="width: 180px;">Element</th>
-                            <th style="width: 110px;">Data Source</th>
-                            <th>R./C. Data</th>
-                            <th></th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td style="vertical-align: middle;">
-                              <div class="form-check">
-                                <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
-                              </div>
-                            </td>
-                            <td>
-                              <div class="form-element">
-                                <input class="" type="text" value="1">
-                              </div>
-                            </td>
-                            <td>
-                              <div class="form-element">
-                                <input class="" type="text" placeholder="Feature Name">
-                              </div>
-                            </td>
-                            <td>
-                              <div class="form-element">
-                                <select class="form-select shadow-none" aria-label="Default select example">
-                                  <option selected="">One</option>
-                                  <option value="1">Two</option>
-                                  <option value="2">Three</option>
-                                </select>
-                              </div>
-                            </td>
-                            <td>
+                    <div class="table-list mt-3">
+                      <div class="table-list-body table-responsive">
+                        <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th style="min-width: 90px;">Authority</th>
+                              <th style="min-width: 110px;">Sequence</th>
+                              <th style="min-width: 230px;">Feature Name</th>
+                              <th style="min-width: 180px;">Element</th>
+                              <th style="min-width: 110px;">Data Source</th>
+                              <th style="min-width: 180px;">R./C. Data</th>
+                              <th style="min-width: 100px;">Status</th>
+                              <th style="min-width: 130px;">Action</th>
+                            </tr>
+                          </thead>
+                          <tbody style="border-top: 0">
+                            <tr>
+                              <td style="vertical-align: middle;">
+                                <div class="form-check">
+                                  <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-element">
+                                  <input class="" type="text" value="1">
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-element">
+                                  <input class="" type="text" placeholder="Feature Name">
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-element">
+                                  <select class="form-select shadow-none" aria-label="Default select example">
+                                    <option selected="">One</option>
+                                    <option value="1">Two</option>
+                                    <option value="2">Three</option>
+                                  </select>
+                                </div>
+                              </td>
+                              <td>
+                              </td>
+                              <td>
+                              </td>
+                              <td class="status status-active">
+                                <span>active</span>
+                              </td>
+                              <td class="text-end">
+                                <!-- <button class="cmn__btn"><i class="bi bi-plus fs-6"></i></button> -->
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="vertical-align: middle;">
+                                <div class="form-check">
+                                  <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-element">
+                                  <input class="" type="text" value="1">
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-element">
+                                  <input class="" type="text" placeholder="Feature Name">
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-element">
+                                  <select class="form-select shadow-none" aria-label="Default select example">
+                                    <option selected="">One</option>
+                                    <option value="1">Two</option>
+                                    <option value="2">Three</option>
+                                  </select>
+                                </div>
+                              </td>
+                              <td>
 
-                            </td>
-                            <td>
+                              </td>
+                              <td>
 
-                            </td>
-                            <td class="text-end">
-                              <button type="button" class="delete cmn__btn"><i class="bi bi-trash3"></i></button>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td style="vertical-align: middle;">
-                              <div class="form-check">
-                                <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
-                              </div>
-                            </td>
-                            <td>
-                              <div class="form-element">
-                                <input class="" type="text" value="1">
-                              </div>
-                            </td>
-                            <td>
-                              <div class="form-element">
-                                <input class="" type="text" placeholder="Feature Name">
-                              </div>
-                            </td>
-                            <td>
-                              <div class="form-element">
-                                <select class="form-select shadow-none" aria-label="Default select example">
-                                  <option selected="">One</option>
-                                  <option value="1">Two</option>
-                                  <option value="2">Three</option>
-                                </select>
-                              </div>
-                            </td>
-                            <td>
+                              </td>
+                              <td class="status status-deactive">
+                                <span>deactive</span>
+                              </td>
+                              <td class="text-end">
+                                <button type="button" class="cmn-delete cmn__btn ms-2"><i class="bi bi-trash3"></i></button>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="vertical-align: middle;">
+                                <div class="form-check">
+                                  <input class="form-check-input shadow-none" type="checkbox" value="" id="flexCheckDefault">
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-element">
+                                  <input class="" type="text" value="1">
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-element">
+                                  <input class="" type="text" placeholder="Feature Name">
+                                </div>
+                              </td>
+                              <td>
+                                <div class="form-element">
+                                  <select class="form-select shadow-none" aria-label="Default select example">
+                                    <option selected="">One</option>
+                                    <option value="1">Two</option>
+                                    <option value="2">Three</option>
+                                  </select>
+                                </div>
+                              </td>
+                              <td>
 
-                            </td>
-                            <td>
+                              </td>
+                              <td>
 
-                            </td>
-                            <td class="text-end">
-                              <button type="button" class="delete cmn__btn"><i class="bi bi-trash3"></i></button>
-                              <button class="plus__ cmn__btn"><i class="bi bi-plus fs-6"></i></button>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
+                              </td>
+                              <td class="status status-active">
+                                <span>deactive</span>
+                              </td>
+                              <td class="text-end">
+                                <button type="button" class="cmn-delete cmn__btn ms-2"><i class="bi bi-trash3"></i></button>
+                                <button class="plus__ cmn__btn"><i class="bi bi-plus fs-6"></i></button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -305,42 +278,131 @@
               <div class="col-lg-4">
                 <div class="border-block">
                   <h4 class="label-text">Media</h4>
-                  <div class="form-element">
-                    
-                    <div class="upload-box">
-                      <input class="d-none" type="file" id="file">
-                      <label for="file"><i class="bi bi-cloud-arrow-up-fill"></i> Upload image</label>
-                    </div>
-                    <div class="d-flex">
-                    <div class="image-box position-relative text-center">
-                      <img src="images/1.png" alt="prf">
-                      <div class="overlay position-absolute top-0 start-0 w-100 h-100">
-                        <i class="bi bi-x position-absolute close"></i>
+
+                  <div class="media-block mb-3">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="form-element">
+                              <label for="" class="d-block w-100">Media Type
+                                <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="You can add multiple items"><i class="fa-solid fa-circle-info"></i></span>
+                              </label>
+                              <select class="form-select shadow-none" aria-label="Default select example">
+                                <!-- <option selected="">select</option> -->
+                                <option value="1">Image</option>
+                                <option value="2">Video</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="form-element">
+                              <label for="" class="d-block w-100">
+                                Video URL
+                                <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="You can add multiple items"><i class="fa-solid fa-circle-info"></i></span>
+                              </label>
+                              <input class="" type="text" placeholder="Type url here...">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="image position-relative">
+                              <img src="./images/2.jpg" alt="not found">
+                              <div class="upload-box">
+                                <input type="file" id="upload" class="d-none" accept="image/*">
+                                <label for="upload">
+                                  <i class="fas fa-cloud-upload-alt"></i>
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div class="image-box position-relative text-center">
-                      <img src="images/1.png" alt="prf">
-                      <div class="overlay position-absolute top-0 start-0 w-100 h-100">
-                        <i class="bi bi-x position-absolute close"></i>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="d-flex align-items-center justify-content-end pt-2">
+                          <button type="button" class="cmn-delete cmn__btn me-2"><i class="bi bi-trash3"></i></button>
+                          <button class="cmn__btn"><i class="bi bi-plus fs-6"></i></button>
+                        </div>
                       </div>
                     </div>
+                  </div>
+
+                  <div class="media-block">
+                    <div class="row">
+                      <div class="col-lg-6">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="form-element">
+                              <label for="" class="d-block w-100">Media Type
+                                <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="You can add multiple items"><i class="fa-solid fa-circle-info"></i></span>
+                              </label>
+                              <select class="form-select shadow-none" aria-label="Default select example">
+                                <!-- <option selected="">select</option> -->
+                                <option value="1">Image</option>
+                                <option value="2">Video</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="form-element">
+                              <label for="" class="d-block w-100">
+                                Video URL
+                                <span class="float-end" data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="You can add multiple items"><i class="fa-solid fa-circle-info"></i></span>
+                              </label>
+                              <input class="" type="text" placeholder="Type url here...">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="image position-relative">
+                              <img src="./images/2.jpg" alt="not found">
+                              <div class="upload-box">
+                                <input type="file" id="upload" class="d-none" accept="image/*">
+                                <label for="upload">
+                                  <i class="fas fa-cloud-upload-alt"></i>
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="d-flex align-items-center justify-content-end pt-2">
+                          <button type="button" class="cmn-delete cmn__btn me-2"><i class="bi bi-trash3"></i></button>
+                          <button class="cmn__btn"><i class="bi bi-plus fs-6"></i></button>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <a href="item.php">
-                <button class="submit-btn">Submit</button>
-            </a>
-          </form>
-          
-          <!-- add employe form part end -->
-
-
 
         </div>
+        <a href="item.php">
+          <button class="submit-btn">Submit</button>
+        </a>
+        </form>
+
+        <!-- add employe form part end -->
+
+
+
       </div>
-      <!-- content part end -->
+    </div>
+    <!-- content part end -->
     </div>
     <!-- main content end -->
   </section>

@@ -54,7 +54,7 @@ body {
 // add or back button
 .btn-back .btn-back-pos {
   top: -30px;
-  right: -30px;
+  right: 0;
   width: 30px;
   border-radius: 20px 0 0 20px;
   transition: .6s;
@@ -94,7 +94,7 @@ body {
   textarea,
   select,
   .upload-box label {
-    height: 100px;
+    height: 35px;
     border: 1px solid $commonBorderColor;
     padding: 0 16px;
     font-size: 15px;
@@ -124,6 +124,16 @@ body {
   font-weight: 400;
 }
 
+.status.status-active span {
+  background-color: rgba(42, 255, 0, .7);
+  color: #000000;
+}
+
+.status.status-deactive span {
+  background-color: rgba(0, 0, 0, 0.15);
+  color: #000000;
+
+}
 .status.status-pending span {
   background-color: rgba(0, 0, 0, 0.15);
   color: #303030;
@@ -205,9 +215,10 @@ margin-bottom: 30px;
 .border-block {
   // background-color: $lightColor1;
   background-color: $lightColor;
-  border: 2px solid $commonBorderColor1;
+  // border: 2px solid $commonBorderColor1;
   padding: 30px 20px;
   margin-bottom: 30px;
+  box-shadow: 0 1px 3px #00000026;
 
   .label-text {
     margin-bottom: 24px;

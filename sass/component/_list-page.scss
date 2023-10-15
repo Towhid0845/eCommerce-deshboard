@@ -12,6 +12,12 @@
     }
   }
 }
+.feature-block,
+.video-block {
+  .form-element {
+    margin-bottom: 0 !important;
+  }
+}
 
 .search-btn {
   font-weight: 600;
@@ -328,16 +334,18 @@
 
 .table-list-body {
   overflow-y: scroll;
-  height: 573px;
+  // height: 573px;
   scrollbar-width: thin;
   scrollbar-color: #01B3B7 transparent;
 
   &::-webkit-scrollbar {
     width: 8px;
+
   }
 
   &::-webkit-scrollbar-thumb {
     background-color: #01B3B7;
+    border-radius: 10px;
   }
 }
 

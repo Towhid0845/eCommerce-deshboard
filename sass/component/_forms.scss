@@ -2,182 +2,154 @@
 @import "../variable/textcolor";
 
 .inner-content {
-  // background-color: $lightColor;
-  padding: 30px;
+// background-color: $lightColor;
+// padding: 30px;
   margin: 0 0 30px;
   position: relative;
 }
 
 .form-element {
-  label {
+label {
     font-size: 14px;
     font-weight: 500;
     color: $darkColor;
     margin-bottom: 5px;
 
-    i {
-      cursor: pointer;
-      color: $sidebarBgColor;
-    }
-
-    .floating-tooltip {
-      width: 170px;
-      padding: 4px 8px;
-      border-radius: 5px;
-      display: inline-block;
-      left: 24px;
-      top: -6px;
-      font-size: 13px;
-      z-index: 99;
-
-      &::before {
-        width: 10px;
-        height: 10px;
-        background-color: #DC3545;
-        position: absolute;
-        // top: 50%;
-        // left: -4px;
-        left: 50%;
-        transform: translateX(-50%);
-        bottom: -10px;
-        transform: translateY(-50%) rotate(45deg);
-        content: "";
-      }
-    }
+i {
+    cursor: pointer;
+    color: $sidebarBgColor;
   }
 
-  input {
-    width: 100%;
-    background-color: transparent;
-    border-radius: 3px;
-    transition: all linear .2s;
-    background-color: $lightColor;
+.floating-tooltip {
+  width: 170px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  display: inline-block;
+  left: 24px;
+  top: -6px;
+  font-size: 13px;
+  z-index: 99;
 
-    &:focus {
-      border-color: $themeColorFour;
-    }
+&::before {
+    width: 10px;
+    height: 10px;
+    background-color: #DC3545;
+    position: absolute;
+    // top: 50%;
+    // left: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    transform: translateY(-50%) rotate(45deg);
+    content: "";
   }
+}
+}
+
+input {
+  width: 100%;
+  background-color: transparent;
+  border-radius: 3px;
+  transition: all linear .2s;
+  background-color: $lightColor;
+
+&:focus {
+    border-color: $themeColorFour;
+  }
+}
+
 .file-input {
-  padding: 5px;
+padding: 5px;
 }
 }
 
-// .tooltip-arrow,
-// .tooltip>.tooltip-inner {
-//   background-color: red;
-// }
+// media block start
+.media-block {
+  background-color: #f2f2f2;
+  padding: 30px;
+  border-radius: 5px;
 
-.form-element {
-  .image-box {
-    width: 50%;
-      height: 200px;
-      border-radius: 20px;
+.image {
+    width: 100%;
+    height: 150px;
 
     img {
-      border-radius: 20px;
+      width: 100%;
       height: 100%;
       object-fit: cover;
-      object-position: center;
-    }
-
-    .overlay {
-      background-color: rgba(0, 0, 0, 0.6);
-      border-radius: 20px;
-      transition: all linear .2s;
-      opacity: 0;
-
-      .close {
-        color: $lightColor;
-        font-size: 24px;
-        cursor: pointer;
-        width: 40px;
-        height: 40px;
-        text-align: center;
-        line-height: 40px;
+      border-radius: 50px;
       }
-    }
 
-    &:hover {
-      .overlay {
-        opacity: 1;
-      }
-    }
+.upload-box {
+  position: absolute;
+    bottom: -6px;
+    right: -6px;
+
+i {
+    width: 35px;
+    height: 35px;
+    background-color: #00AFF0;
+    border-radius: 50%;
+    text-align: center;
+line-height: 35px;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 14px;
+  }
+  }
+  }
   }
 
-  .upload-box {
-    // margin-left: 24px;
-    flex-grow: 1;
-
-    label {
-      width: 100%;
-      color: $lightDarkColor;
-      text-align: center;
-      border-radius: 5px;
-      line-height: 40px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
-      background-color: $lightColor;
-
-      i {
-        font-size: 24px;
-        line-height: 1;
-        margin-right: 10px;
-      }
-    }
-  }
-
-}
 
 .file-upload {
-  width: 160px;
+width: 160px;
   background-color: #f1f1f1;
   border: 1px solid $lightDarkColor;
   border-radius: 5px;
   padding: 16px;
 
-  .image {
+.image {
     width: 70px;
     height: 70px;
     margin: 0 auto;
     margin-bottom: 20px;
 
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      object-position: center;
-    }
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
   }
+}
 
-  .upload-box {
-    label {
-      text-align: center;
-      cursor: pointer;
-      width: 100%;
-      display: block;
-      background-color: $themeColorFive;
-      color: $lightColor;
-      padding: 7px;
-      font-size: 16px;
-      font-weight: 500;
-      border-radius: 5px;
-    }
+.upload-box {
+  label {
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    display: block;
+    background-color: $themeColorFive;
+    color: $lightColor;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
   }
+}
 }
 
 .form-label {
-  color: #404E67;
+color: #404E67;
 }
 
 .form-check {
-  .form-check-label {
+.form-check-label {
     color: #404E67;
   }
 }
+
 .cmn__btn {
-  height: 35px;
+height: 35px;
   border: 0;
   border-radius: 3px;
   width: 35px;
@@ -187,70 +159,70 @@
   background-color: $sidebarBgColor;
   color: #fff;
 
-  .bi-plus {
+.bi-plus {
     font-size: 25px !important;
   }
 }
 
 .cmn-delete {
-  background-color: #F1556C;
+background-color: #F1556C;
 
-  i {
+i {
     font-size: 18px;
   }
 }
 
 // radio button
 .form-check-input:checked {
-  background-color: $sidebarBgColor;
+background-color: $sidebarBgColor;
   border-color: $sidebarBgColor;
 }
 
 div[aria-hidden="true"] {
-  color: red;
+color: red;
 }
 
 
 // switch button
 .switch {
-  position: relative;
+position: relative;
   display: inline-block;
   width: 60px;
   height: 34px;
 
-  input {
+input {
     display: none;
 
-    &:checked+.switch-state {
-      background-color: $sidebarBgColor;
+&:checked+.switch-state {
+    background-color: $sidebarBgColor;
 
-      &::before {
-        transform: translateX(26px);
-      }
-    }
+&::before {
+    transform: translateX(26px);
   }
+}
+}
 
-  .switch-state {
-    border-radius: 20px;
+.switch-state {
+  border-radius: 20px;
+  position: absolute;
+  cursor: pointer;
+  background-color: #b1b1b1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: .4s;
+
+&:before {
+    content: "";
     position: absolute;
-    cursor: pointer;
-    background-color: #b1b1b1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #fff;
     transition: .4s;
-
-    &:before {
-      content: "";
-      position: absolute;
-      height: 26px;
-      width: 26px;
-      left: 4px;
-      bottom: 4px;
-      background-color: #fff;
-      transition: .4s;
-      border-radius: 20px;
-    }
+    border-radius: 20px;
   }
+}
 }
