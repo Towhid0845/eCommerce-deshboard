@@ -334,7 +334,7 @@
 
 .table-list-body {
   overflow-y: scroll;
-  // height: 573px;
+  height: 400px;
   scrollbar-width: thin;
   scrollbar-color: #01B3B7 transparent;
 
@@ -474,4 +474,5 @@
   padding: 20px;
   // background-color: $searchBgColor;
   background-color: $lightColor1;
+  box-shadow: 0 1px 3px #00000026;
 }

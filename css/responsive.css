@@ -1,10 +1,15 @@
-@media (min-width: 1400px) and (max-width: 1799px) {
+@media (min-width: 1400px) and (max-width: 1599px) {
   .gallery-list ul li {
     width: 15%; }
 
   .view-page .image {
     width: 58px;
-    height: 58px; } }
+    height: 58px; }
+
+  .media-block .image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto; } }
 @media (min-width: 1200px) and (max-width: 1399.98px) {
   .summery-item {
     margin-bottom: 24px !important; }
@@ -63,6 +68,11 @@
     width: 41px;
     height: 41px; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .media-block .image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto; }
+
   .summery-item {
     margin-bottom: 24px !important; }
 
@@ -87,7 +97,7 @@
     height: 210px; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .navigation-body {
-    margin-left: -250px;
+    margin-left: -280px;
     box-shadow: none !important;
     transition: all linear .3s; }
 
@@ -129,10 +139,10 @@
 
   .bread-crumb-part {
     height: auto;
-    padding: 0 15px; }
+    padding: 0 40px; }
 
   .mobile-control-bar i {
-    color: #fff;
+    color: black;
     font-size: 18px;
     cursor: pointer;
     padding: 0 21px;
@@ -160,7 +170,7 @@
     margin-top: 24px; }
 
   .content-part {
-    padding: 15px; }
+    padding: 30px 40px; }
 
   .toggle-overlay {
     width: 100%;
@@ -183,7 +193,7 @@
     font-size: 10px; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .navigation-body {
-    margin-left: -250px;
+    margin-left: -280px;
     box-shadow: none !important;
     transition: all linear .3s; }
 
@@ -225,10 +235,10 @@
 
   .bread-crumb-part {
     height: auto;
-    padding: 0 15px; }
+    padding: 0 40px; }
 
   .mobile-control-bar i {
-    color: #fff;
+    color: black;
     font-size: 18px;
     cursor: pointer;
     padding: 0 21px;
@@ -256,7 +266,7 @@
     margin-top: 24px; }
 
   .content-part {
-    padding: 15px; }
+    padding: 30px 40px; }
 
   .toggle-overlay {
     width: 100%;
@@ -279,7 +289,7 @@
     font-size: 10px; } }
 @media (max-width: 575.98px) {
   .navigation-body {
-    margin-left: -250px;
+    margin-left: -280px;
     box-shadow: none !important;
     transition: all linear .3s; }
 
@@ -321,10 +331,10 @@
 
   .bread-crumb-part {
     height: auto;
-    padding: 0 15px; }
+    padding: 0 30px; }
 
   .mobile-control-bar i {
-    color: #fff;
+    color: black;
     font-size: 18px;
     cursor: pointer;
     padding: 0 21px;
@@ -352,7 +362,7 @@
     margin-top: 24px; }
 
   .content-part {
-    padding: 15px; }
+    padding: 30px 30px; }
 
   .toggle-overlay {
     width: 100%;

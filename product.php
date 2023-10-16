@@ -42,17 +42,17 @@ include("layout/head.php");
 
           <!-- alert section start -->
           <!-- <?php
-            include("layout/alert-box.php")
-          ?> -->
+                include("layout/alert-box.php")
+                ?> -->
 
           <!-- search header -->
           <div class="search-section">
             <div class="row">
-              <div class="col-sm-7 col-lg-9 col-xxl-10">
+              <div class="col-12">
                 <form action="">
                   <div class="row">
 
-                    <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-6 col-xl-3">
                       <div class="form-element">
                         <label for="">Select Category</label>
                         <select class="form-select shadow-none" aria-label="Default select example">
@@ -64,7 +64,7 @@ include("layout/head.php");
                         </select>
                       </div>
                     </div>
-                    <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-6 col-xl-3">
                       <div class="form-element">
                         <label for="">Search by</label>
                         <select class="form-select shadow-none" aria-label="Default select example">
@@ -76,14 +76,13 @@ include("layout/head.php");
                         </select>
                       </div>
                     </div>
-
-                    <div class="col-md-6 col-lg-4 col-xl-3">
+                    <div class="col-sm-6 col-md-4 col-lg-6 col-xl-3">
                       <div class="form-element">
                         <label for="">Type Text</label>
                         <input type="text" placeholder="Type here...">
                       </div>
                     </div>
-                    <div class="col-md-3 col-lg-3 col-xl-2 align-self-end">
+                    <div class="col-sm-6 col-md-3 col-xl-2 align-self-end">
                       <button type="submit" class="search-btn">
                         <div class="btn-front"><i class="fa-solid fa-magnifying-glass"></i></div>
                         <div class="btn-back"><i class="fa-solid fa-magnifying-glass"></i></div>
@@ -185,13 +184,10 @@ include("layout/head.php");
                     <td class="status status-pending"><span>Pending</span></td>
                     <td><span>
                         <a href="product-view.html">
-                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                            class="delete view"><i class="fa-solid fa-eye"></i></span>
+                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete view"><i class="fa-solid fa-eye"></i></span>
                         </a>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                          class="delete edit"><i class="fas fa-pencil-alt"></i></span>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                          class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
                     </td>
                   </tr>
                   <tr>
@@ -211,13 +207,10 @@ include("layout/head.php");
                     <td class="status status-approve"><span>Approved</span></td>
                     <td><span>
                         <a href="product-view.html">
-                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                            class="delete view"><i class="fa-solid fa-eye"></i></span>
+                          <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete view"><i class="fa-solid fa-eye"></i></span>
                         </a>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                          class="delete edit"><i class="fas fa-pencil-alt"></i></span>
-                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"
-                          class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete edit"><i class="fas fa-pencil-alt"></i></span>
+                        <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete delete-btn"><i class="far fa-trash-alt"></i></span>
                     </td>
                   </tr>
                 </tbody>
