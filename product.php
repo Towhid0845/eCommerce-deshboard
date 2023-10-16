@@ -183,7 +183,7 @@ include("layout/head.php");
                     <td><span>5 Jul 2023</span></td>
                     <td class="status status-pending"><span>Pending</span></td>
                     <td><span>
-                        <a href="product-view.html">
+                        <a href="product-view.php">
                           <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete view"><i class="fa-solid fa-eye"></i></span>
                         </a>
                         <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete edit"><i class="fas fa-pencil-alt"></i></span>
@@ -206,7 +206,7 @@ include("layout/head.php");
                     <td><span>5 Jul 2023</span></td>
                     <td class="status status-approve"><span>Approved</span></td>
                     <td><span>
-                        <a href="product-view.html">
+                        <a href="product-view.php">
                           <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete view"><i class="fa-solid fa-eye"></i></span>
                         </a>
                         <span data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top" class="delete edit"><i class="fas fa-pencil-alt"></i></span>
